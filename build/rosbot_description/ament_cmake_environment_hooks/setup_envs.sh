@@ -1,0 +1,3 @@
+ament_prepend_unique_value GAZEBO_MODEL_PATH "/home/user/seek_destroy_ws/install/rosbot_description/share"
+ament_prepend_unique_value GZ_SIM_RESOURCE_PATH "/home/user/seek_destroy_ws/install/rosbot_description/share"
+ament_prepend_unique_value IGN_GAZEBO_RESOURCE_PATH "/home/user/seek_destroy_ws/install/rosbot_description/share"

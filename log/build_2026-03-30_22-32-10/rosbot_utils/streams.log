@@ -1,0 +1,26 @@
+[18.702s] Invoking command in '/home/user/seek_destroy_ws/build/rosbot_utils': PYTHONPATH=/home/user/seek_destroy_ws/build/rosbot_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/rosbot_utils/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/rosbot_utils/build --no-deps symlink_data
+[22.311s] running develop
+[27.290s] running egg_info
+[27.290s] creating rosbot_utils.egg-info
+[27.290s] writing manifest file 'rosbot_utils.egg-info/SOURCES.txt'
+[27.291s] writing manifest file 'rosbot_utils.egg-info/SOURCES.txt'
+[27.299s] running build_ext
+[27.299s] running symlink_data
+[27.299s] creating /home/user/seek_destroy_ws/install/rosbot_utils/share/ament_index
+[27.299s] creating /home/user/seek_destroy_ws/install/rosbot_utils/share/ament_index/resource_index
+[27.300s] creating /home/user/seek_destroy_ws/install/rosbot_utils/share/ament_index/resource_index/packages
+[27.300s] symbolically linking /home/user/seek_destroy_ws/build/rosbot_utils/resource/rosbot_utils -> /home/user/seek_destroy_ws/install/rosbot_utils/share/ament_index/resource_index/packages
+[27.315s] symbolically linking /home/user/seek_destroy_ws/build/rosbot_utils/package.xml -> /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils
+[27.315s] creating /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/config
+[27.315s] creating /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/config/rosbot
+[27.315s] symbolically linking /home/user/seek_destroy_ws/build/rosbot_utils/config/rosbot/laser_filter.yaml -> /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/config/rosbot
+[27.315s] creating /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/config/rosbot_xl
+[27.315s] symbolically linking /home/user/seek_destroy_ws/build/rosbot_utils/config/rosbot_xl/laser_filter.yaml -> /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/config/rosbot_xl
+[27.315s] creating /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/firmware
+[27.315s] creating /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/firmware/rosbot
+[27.315s] symbolically linking /home/user/seek_destroy_ws/build/rosbot_utils/firmware/rosbot/v0.11.0.bin -> /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/firmware/rosbot
+[27.316s] creating /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/firmware/rosbot_xl
+[27.316s] symbolically linking /home/user/seek_destroy_ws/build/rosbot_utils/firmware/rosbot_xl/v1.4.0.bin -> /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/firmware/rosbot_xl
+[27.316s] creating /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/launch
+[27.316s] symbolically linking /home/user/seek_destroy_ws/build/rosbot_utils/launch/laser_filter.launch.py -> /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/launch
+[28.515s] Invoked command in '/home/user/seek_destroy_ws/build/rosbot_utils' returned '0': PYTHONPATH=/home/user/seek_destroy_ws/build/rosbot_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/rosbot_utils/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/rosbot_utils/build --no-deps symlink_data

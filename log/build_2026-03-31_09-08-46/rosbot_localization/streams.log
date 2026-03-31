@@ -1,0 +1,23 @@
+[0.721s] Invoking command in '/home/user/seek_destroy_ws/build/rosbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/rosbot_localization -- -j8 -l8
+[1.026s] Invoked command in '/home/user/seek_destroy_ws/build/rosbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/rosbot_localization -- -j8 -l8
+[1.032s] Invoking command in '/home/user/seek_destroy_ws/build/rosbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/rosbot_localization
+[1.147s] -- Install configuration: ""
+[1.169s] -- Execute custom install script
+[1.176s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/config/ekf.yaml
+[1.176s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/launch/ekf.launch.py
+[1.176s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot_localization/share/ament_index/resource_index/package_run_dependencies/rosbot_localization
+[1.177s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot_localization/share/ament_index/resource_index/parent_prefix_path/rosbot_localization
+[1.177s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/environment/ament_prefix_path.sh
+[1.178s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/environment/ament_prefix_path.dsv
+[1.179s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/environment/path.sh
+[1.179s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/environment/path.dsv
+[1.180s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/local_setup.bash
+[1.180s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/local_setup.sh
+[1.183s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/local_setup.zsh
+[1.184s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/local_setup.dsv
+[1.184s] -- Symlinking: /home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/package.dsv
+[1.359s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot_localization/share/ament_index/resource_index/packages/rosbot_localization
+[1.359s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/cmake/rosbot_localizationConfig.cmake
+[1.359s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/cmake/rosbot_localizationConfig-version.cmake
+[1.359s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/package.xml
+[1.360s] Invoked command in '/home/user/seek_destroy_ws/build/rosbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/rosbot_localization

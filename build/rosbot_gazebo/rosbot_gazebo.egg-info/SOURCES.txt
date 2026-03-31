@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+config/gz_bridge.yaml
+config/rosbot_bridge.yaml
+launch/simulation.launch.py
+launch/spawn_robot.launch.py
+resource/rosbot_gazebo
+rosbot_gazebo.egg-info/PKG-INFO
+rosbot_gazebo.egg-info/SOURCES.txt
+rosbot_gazebo.egg-info/dependency_links.txt
+rosbot_gazebo.egg-info/entry_points.txt
+rosbot_gazebo.egg-info/requires.txt
+rosbot_gazebo.egg-info/top_level.txt
+rosbot_gazebo.egg-info/zip-safe

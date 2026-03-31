@@ -1,0 +1,4 @@
+[console_scripts]
+create_config_dir = rosbot_utils.create_config_dir:main
+flash_firmware = rosbot_utils.flash_firmware:main
+

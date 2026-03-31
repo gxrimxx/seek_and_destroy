@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating rosbot_utils.egg-info
+writing manifest file 'rosbot_utils.egg-info/SOURCES.txt'
+writing manifest file 'rosbot_utils.egg-info/SOURCES.txt'
+running build_ext
+running symlink_data
+creating /home/user/seek_destroy_ws/install/rosbot_utils/share/ament_index
+creating /home/user/seek_destroy_ws/install/rosbot_utils/share/ament_index/resource_index
+creating /home/user/seek_destroy_ws/install/rosbot_utils/share/ament_index/resource_index/packages
+symbolically linking /home/user/seek_destroy_ws/build/rosbot_utils/resource/rosbot_utils -> /home/user/seek_destroy_ws/install/rosbot_utils/share/ament_index/resource_index/packages
+symbolically linking /home/user/seek_destroy_ws/build/rosbot_utils/package.xml -> /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils
+creating /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/config
+creating /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/config/rosbot
+symbolically linking /home/user/seek_destroy_ws/build/rosbot_utils/config/rosbot/laser_filter.yaml -> /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/config/rosbot
+creating /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/config/rosbot_xl
+symbolically linking /home/user/seek_destroy_ws/build/rosbot_utils/config/rosbot_xl/laser_filter.yaml -> /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/config/rosbot_xl
+creating /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/firmware
+creating /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/firmware/rosbot
+symbolically linking /home/user/seek_destroy_ws/build/rosbot_utils/firmware/rosbot/v0.11.0.bin -> /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/firmware/rosbot
+creating /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/firmware/rosbot_xl
+symbolically linking /home/user/seek_destroy_ws/build/rosbot_utils/firmware/rosbot_xl/v1.4.0.bin -> /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/firmware/rosbot_xl
+creating /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/launch
+symbolically linking /home/user/seek_destroy_ws/build/rosbot_utils/launch/laser_filter.launch.py -> /home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/launch

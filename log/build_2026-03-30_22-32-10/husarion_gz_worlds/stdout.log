@@ -1,0 +1,111 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/user/seek_destroy_ws/build/husarion_gz_worlds
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/config/teleop.config
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/launch/gz_sim.launch.py
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/ConferenceTable/meshes/conference_table.stl
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/ConferenceTable/model.config
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/ConferenceTable/model.sdf
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Door/meshes/door.stl
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Door/model.config
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Door/model.sdf
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/HusarionLogo/meshes/husarion_logo.dae
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Kitchen/meshes/kitchen.stl
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Kitchen/model.config
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Kitchen/model.sdf
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Laptop/meshes/laptop.stl
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Laptop/model.config
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Laptop/model.sdf
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/astra.dae
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/box.dae
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/rplidar.dae
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/upper.dae
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/wheel.dae
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/model.config
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/model.sdf
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/black_concrete.png
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_1.mtl
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_1.obj
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_10.mtl
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_10.obj
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_11.mtl
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_11.obj
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_12.mtl
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_12.obj
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_13.mtl
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_13.obj
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_14.mtl
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_14.obj
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_2.mtl
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_2.obj
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_3.mtl
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_3.obj
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_4.mtl
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_4.obj
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_5.mtl
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_5.obj
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_6.mtl
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_6.obj
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_7.mtl
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_7.obj
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_8.mtl
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_8.obj
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_9.mtl
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_9.obj
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/model.material
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wall_1.mtl
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wall_1.obj
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wall_2.mtl
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wall_2.obj
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/white_carpet.png
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/white_tiles.png
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/white_wall.png
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wood1.png
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wood2.png
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/model.config
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/model.sdf
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Tv/meshes/tv.stl
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Tv/model.config
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Tv/model.sdf
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/WaterDispenser/meshes/water_dispenser.dae
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/WaterDispenser/model.config
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/WaterDispenser/model.sdf
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/worlds/empty_with_plugins.sdf
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/worlds/husarion_office.sdf
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/worlds/husarion_world.sdf
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/worlds/sonoma_raceway.sdf
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/maps/husarion_world.pgm
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/maps/husarion_world.yaml
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/husarion_gz_worlds.sh
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/ament_index/resource_index/package_run_dependencies/husarion_gz_worlds
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/ament_index/resource_index/parent_prefix_path/husarion_gz_worlds
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/ament_prefix_path.sh
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/ament_prefix_path.dsv
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/path.sh
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/path.dsv
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/local_setup.bash
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/local_setup.sh
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/local_setup.zsh
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/local_setup.dsv
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/package.dsv
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/ament_index/resource_index/packages/husarion_gz_worlds
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/cmake/husarion_gz_worldsConfig.cmake
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/cmake/husarion_gz_worldsConfig-version.cmake
+-- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/package.xml

@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+config/rosbot/controllers.yaml
+config/rosbot_xl/controllers.yaml
+launch/controller.launch.py
+launch/manipulator.launch.py
+resource/rosbot_controller
+rosbot_controller/__init__.py
+rosbot_controller/arm_control.py
+rosbot_controller.egg-info/PKG-INFO
+rosbot_controller.egg-info/SOURCES.txt
+rosbot_controller.egg-info/dependency_links.txt
+rosbot_controller.egg-info/entry_points.txt
+rosbot_controller.egg-info/requires.txt
+rosbot_controller.egg-info/top_level.txt
+rosbot_controller.egg-info/zip-safe

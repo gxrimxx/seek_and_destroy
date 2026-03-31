@@ -1,0 +1,106 @@
+[1.709s] Invoking command in '/home/user/seek_destroy_ws/build/husarion_components_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/seek_destroy_ws/src/husarion_components_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/seek_destroy_ws/install/husarion_components_description
+[12.006s] -- The C compiler identification is GNU 11.4.0
+[12.007s] -- The CXX compiler identification is GNU 11.4.0
+[12.007s] -- Detecting C compiler ABI info
+[12.007s] -- Detecting C compiler ABI info - done
+[12.007s] -- Check for working C compiler: /usr/bin/cc - skipped
+[12.007s] -- Detecting C compile features
+[12.007s] -- Detecting C compile features - done
+[12.009s] -- Detecting CXX compiler ABI info
+[12.009s] -- Detecting CXX compiler ABI info - done
+[12.010s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[12.010s] -- Detecting CXX compile features
+[12.089s] -- Detecting CXX compile features - done
+[12.090s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[21.098s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[22.207s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[25.388s] -- Found ament_cmake_pytest: 1.3.14 (/opt/ros/humble/share/ament_cmake_pytest/cmake)
+[48.109s] -- Configuring done
+[48.188s] -- Generating done
+[48.197s] -- Build files have been written to: /home/user/seek_destroy_ws/build/husarion_components_description
+[48.207s] Invoked command in '/home/user/seek_destroy_ws/build/husarion_components_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/seek_destroy_ws/src/husarion_components_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/seek_destroy_ws/install/husarion_components_description
+[48.208s] Invoking command in '/home/user/seek_destroy_ws/build/husarion_components_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/husarion_components_description -- -j8 -l8
+[48.911s] Invoked command in '/home/user/seek_destroy_ws/build/husarion_components_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/husarion_components_description -- -j8 -l8
+[48.911s] Invoking command in '/home/user/seek_destroy_ws/build/husarion_components_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/husarion_components_description
+[49.107s] -- Install configuration: ""
+[49.108s] -- Execute custom install script
+[49.109s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/meshes/devs/dev01.dae
+[49.195s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/meshes/devs/dev02.dae
+[49.298s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/meshes/devs/dev03.dae
+[49.411s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/meshes/devs/dev04h.dae
+[49.501s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/meshes/devs/dev04l.dae
+[49.790s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/meshes/devs/dev05.dae
+[49.899s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/meshes/devs/dev06.dae
+[49.990s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/meshes/devs/dev07.dae
+[50.105s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/meshes/devs/dev07t.dae
+[50.188s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/meshes/devs/dev09.dae
+[50.199s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/meshes/ouster_os01.dae
+[50.288s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/meshes/teltonika_003R-00253.dae
+[50.302s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/meshes/teltonika_003R-00253_collision.stl
+[50.388s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/meshes/v_slot_profile.dae
+[50.404s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/meshes/wibotic_frame.dae
+[50.691s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/meshes/wibotic_receiver.dae
+[50.788s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/meshes/wibotic_transmitter.dae
+[50.891s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/urdf/components.urdf.xacro
+[51.088s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/urdf/dev.urdf.xacro
+[51.209s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/urdf/gz_sensor.urdf.xacro
+[51.310s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/urdf/intel_realsense_d435.urdf.xacro
+[51.392s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/urdf/kinova.urdf.xacro
+[51.607s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/urdf/luxonis_depthai.urdf.xacro
+[51.816s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/urdf/orbbec_astra.urdf.xacro
+[51.910s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/urdf/ouster.urdf.xacro
+[52.004s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/urdf/rack.urdf.xacro
+[52.115s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/urdf/robotiq.urdf.xacro
+[52.213s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/urdf/slamtec_rplidar.urdf.xacro
+[52.310s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/urdf/stereolabs_zed.urdf.xacro
+[52.688s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/urdf/teltonika_003R-00253.urdf.xacro
+[52.688s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/urdf/ur.urdf.xacro
+[52.704s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/urdf/velodyne_puck.urdf.xacro
+[52.788s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/urdf/wibotic_receiver.urdf.xacro
+[52.801s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/urdf/wibotic_station.urdf.xacro
+[52.814s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/launch/gz_components.launch.py
+[52.904s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/launch/gz_intel_realsense_d435.launch.py
+[53.098s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/launch/gz_kinova_6dof.launch.py
+[53.191s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/launch/gz_kinova_7dof.launch.py
+[53.295s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/launch/gz_luxonis_depthai.launch.py
+[53.397s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/launch/gz_orbbec_astra.launch.py
+[53.511s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/launch/gz_ouster_os.launch.py
+[53.610s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/launch/gz_robotiq.launch.py
+[53.699s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/launch/gz_slamtec_rplidar.launch.py
+[53.789s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/launch/gz_stereolabs_zed.launch.py
+[53.826s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/launch/gz_teltonika.launch.py
+[53.904s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/launch/gz_ur.launch.py
+[53.993s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/launch/gz_velodyne.launch.py
+[54.112s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/launch/gz_wibotic_station.launch.py
+[54.389s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/config/gz_intel_realsense_d435_remappings.yaml
+[54.501s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/config/gz_kinova_remappings.yaml
+[54.597s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/config/gz_luxonis_depthai_remappings.yaml
+[54.608s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/config/gz_orbbec_astra_remappings.yaml
+[54.693s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/config/gz_ouster_os_remappings.yaml
+[54.709s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/config/gz_slamtec_rplidar_remappings.yaml
+[54.988s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/config/gz_stereolabs_zed_remappings.yaml
+[55.004s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/config/gz_teltonika_remappings.yaml
+[55.091s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/config/gz_velodyne_remappings.yaml
+[55.207s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/config/kinova_6dof_controllers.yaml
+[55.303s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/config/kinova_7dof_controllers.yaml
+[55.391s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/config/robotiq_controllers.yaml
+[55.605s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/config/ur_controllers.yaml
+[55.694s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/test/component.urdf.xacro
+[55.995s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/test/test_components_xacro.py
+[56.189s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/environment/husarion_components_description.sh
+[56.310s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/ament_index/resource_index/package_run_dependencies/husarion_components_description
+[56.417s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/ament_index/resource_index/parent_prefix_path/husarion_components_description
+[56.503s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/environment/ament_prefix_path.sh
+[56.705s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/environment/ament_prefix_path.dsv
+[56.795s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/environment/path.sh
+[56.900s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/environment/path.dsv
+[56.999s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/local_setup.bash
+[57.092s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/local_setup.sh
+[57.203s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/local_setup.zsh
+[57.306s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/local_setup.dsv
+[57.396s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/package.dsv
+[57.492s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/ament_index/resource_index/packages/husarion_components_description
+[57.588s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/cmake/husarion_components_descriptionConfig.cmake
+[57.604s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/cmake/husarion_components_descriptionConfig-version.cmake
+[57.790s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/package.xml
+[58.092s] Invoked command in '/home/user/seek_destroy_ws/build/husarion_components_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/husarion_components_description

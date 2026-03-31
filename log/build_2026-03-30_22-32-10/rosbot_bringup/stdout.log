@@ -1,0 +1,17 @@
+running develop
+running egg_info
+creating rosbot_bringup.egg-info
+writing manifest file 'rosbot_bringup.egg-info/SOURCES.txt'
+writing manifest file 'rosbot_bringup.egg-info/SOURCES.txt'
+running build_ext
+running symlink_data
+creating /home/user/seek_destroy_ws/install/rosbot_bringup/share/ament_index
+creating /home/user/seek_destroy_ws/install/rosbot_bringup/share/ament_index/resource_index
+creating /home/user/seek_destroy_ws/install/rosbot_bringup/share/ament_index/resource_index/packages
+symbolically linking /home/user/seek_destroy_ws/build/rosbot_bringup/resource/rosbot_bringup -> /home/user/seek_destroy_ws/install/rosbot_bringup/share/ament_index/resource_index/packages
+symbolically linking /home/user/seek_destroy_ws/build/rosbot_bringup/package.xml -> /home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup
+creating /home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup/config
+symbolically linking /home/user/seek_destroy_ws/build/rosbot_bringup/config/microros_localhost_only.xml -> /home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup/config
+creating /home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup/launch
+symbolically linking /home/user/seek_destroy_ws/build/rosbot_bringup/launch/microros.launch.py -> /home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup/launch
+symbolically linking /home/user/seek_destroy_ws/build/rosbot_bringup/launch/bringup.launch.py -> /home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup/launch

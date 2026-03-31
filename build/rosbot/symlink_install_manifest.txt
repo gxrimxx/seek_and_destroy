@@ -1,0 +1,15 @@
+/home/user/seek_destroy_ws/install/rosbot/share/ament_index/resource_index/package_run_dependencies/rosbot
+/home/user/seek_destroy_ws/install/rosbot/share/ament_index/resource_index/parent_prefix_path/rosbot
+/home/user/seek_destroy_ws/install/rosbot/share/rosbot/environment/ament_prefix_path.sh
+/home/user/seek_destroy_ws/install/rosbot/share/rosbot/environment/ament_prefix_path.dsv
+/home/user/seek_destroy_ws/install/rosbot/share/rosbot/environment/path.sh
+/home/user/seek_destroy_ws/install/rosbot/share/rosbot/environment/path.dsv
+/home/user/seek_destroy_ws/install/rosbot/share/rosbot/local_setup.bash
+/home/user/seek_destroy_ws/install/rosbot/share/rosbot/local_setup.sh
+/home/user/seek_destroy_ws/install/rosbot/share/rosbot/local_setup.zsh
+/home/user/seek_destroy_ws/install/rosbot/share/rosbot/local_setup.dsv
+/home/user/seek_destroy_ws/install/rosbot/share/rosbot/package.dsv
+/home/user/seek_destroy_ws/install/rosbot/share/ament_index/resource_index/packages/rosbot
+/home/user/seek_destroy_ws/install/rosbot/share/rosbot/cmake/rosbotConfig.cmake
+/home/user/seek_destroy_ws/install/rosbot/share/rosbot/cmake/rosbotConfig-version.cmake
+/home/user/seek_destroy_ws/install/rosbot/share/rosbot/package.xml

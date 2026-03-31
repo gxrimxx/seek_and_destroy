@@ -1,0 +1,3 @@
+[console_scripts]
+arm_control = rosbot_controller.arm_control:main
+

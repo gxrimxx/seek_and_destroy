@@ -1,0 +1,117 @@
+[4.211s] Invoking command in '/home/user/seek_destroy_ws/build/husarion_gz_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/seek_destroy_ws/src/husarion_gz_worlds -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/seek_destroy_ws/install/husarion_gz_worlds
+[11.494s] -- The C compiler identification is GNU 11.4.0
+[11.495s] -- The CXX compiler identification is GNU 11.4.0
+[11.495s] -- Detecting C compiler ABI info
+[11.495s] -- Detecting C compiler ABI info - done
+[11.495s] -- Check for working C compiler: /usr/bin/cc - skipped
+[11.495s] -- Detecting C compile features
+[11.495s] -- Detecting C compile features - done
+[11.495s] -- Detecting CXX compiler ABI info
+[11.495s] -- Detecting CXX compiler ABI info - done
+[11.495s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[11.495s] -- Detecting CXX compile features
+[11.495s] -- Detecting CXX compile features - done
+[11.495s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[21.494s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[23.110s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[26.893s] -- Configuring done
+[26.895s] -- Generating done
+[26.898s] -- Build files have been written to: /home/user/seek_destroy_ws/build/husarion_gz_worlds
+[26.915s] Invoked command in '/home/user/seek_destroy_ws/build/husarion_gz_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/user/seek_destroy_ws/src/husarion_gz_worlds -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/user/seek_destroy_ws/install/husarion_gz_worlds
+[26.916s] Invoking command in '/home/user/seek_destroy_ws/build/husarion_gz_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/husarion_gz_worlds -- -j8 -l8
+[27.801s] Invoked command in '/home/user/seek_destroy_ws/build/husarion_gz_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/husarion_gz_worlds -- -j8 -l8
+[27.801s] Invoking command in '/home/user/seek_destroy_ws/build/husarion_gz_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/husarion_gz_worlds
+[28.314s] -- Install configuration: ""
+[28.314s] -- Execute custom install script
+[28.314s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/config/teleop.config
+[28.314s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/launch/gz_sim.launch.py
+[28.394s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/ConferenceTable/meshes/conference_table.stl
+[28.702s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/ConferenceTable/model.config
+[28.913s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/ConferenceTable/model.sdf
+[29.113s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Door/meshes/door.stl
+[29.293s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Door/model.config
+[29.499s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Door/model.sdf
+[29.703s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/HusarionLogo/meshes/husarion_logo.dae
+[29.806s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Kitchen/meshes/kitchen.stl
+[30.299s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Kitchen/model.config
+[30.496s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Kitchen/model.sdf
+[30.803s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Laptop/meshes/laptop.stl
+[30.916s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Laptop/model.config
+[31.216s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Laptop/model.sdf
+[31.318s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/astra.dae
+[31.600s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/box.dae
+[31.893s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/rplidar.dae
+[31.914s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/upper.dae
+[31.993s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/meshes/wheel.dae
+[32.108s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/model.config
+[32.209s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Rosbot/model.sdf
+[32.310s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/black_concrete.png
+[32.593s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_1.mtl
+[32.807s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_1.obj
+[33.106s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_10.mtl
+[33.213s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_10.obj
+[33.397s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_11.mtl
+[33.512s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_11.obj
+[33.593s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_12.mtl
+[33.792s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_12.obj
+[34.002s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_13.mtl
+[34.095s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_13.obj
+[34.112s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_14.mtl
+[34.210s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_14.obj
+[34.305s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_2.mtl
+[34.713s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_2.obj
+[34.915s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_3.mtl
+[35.011s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_3.obj
+[35.209s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_4.mtl
+[35.306s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_4.obj
+[35.397s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_5.mtl
+[35.421s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_5.obj
+[36.004s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_6.mtl
+[36.094s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_6.obj
+[36.216s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_7.mtl
+[36.308s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_7.obj
+[36.494s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_8.mtl
+[36.809s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_8.obj
+[37.096s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_9.mtl
+[37.209s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/floor_9.obj
+[37.394s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/model.material
+[37.597s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wall_1.mtl
+[37.610s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wall_1.obj
+[37.693s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wall_2.mtl
+[37.794s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wall_2.obj
+[38.200s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/white_carpet.png
+[38.313s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/white_tiles.png
+[38.508s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/white_wall.png
+[38.608s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wood1.png
+[38.708s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/meshes/wood2.png
+[38.797s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/model.config
+[39.099s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Surfaces/model.sdf
+[39.193s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Tv/meshes/tv.stl
+[39.312s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Tv/model.config
+[39.505s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/Tv/model.sdf
+[39.594s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/WaterDispenser/meshes/water_dispenser.dae
+[39.709s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/WaterDispenser/model.config
+[39.894s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/models/WaterDispenser/model.sdf
+[40.100s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/worlds/empty_with_plugins.sdf
+[40.399s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/worlds/husarion_office.sdf
+[40.504s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/worlds/husarion_world.sdf
+[40.599s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/worlds/sonoma_raceway.sdf
+[40.700s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/maps/husarion_world.pgm
+[40.996s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/maps/husarion_world.yaml
+[41.201s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/husarion_gz_worlds.sh
+[41.501s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/ament_index/resource_index/package_run_dependencies/husarion_gz_worlds
+[41.593s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/ament_index/resource_index/parent_prefix_path/husarion_gz_worlds
+[41.699s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/ament_prefix_path.sh
+[41.713s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/ament_prefix_path.dsv
+[41.801s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/path.sh
+[42.003s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/environment/path.dsv
+[42.305s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/local_setup.bash
+[42.394s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/local_setup.sh
+[42.505s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/local_setup.zsh
+[42.796s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/local_setup.dsv
+[43.002s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/package.dsv
+[43.105s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/ament_index/resource_index/packages/husarion_gz_worlds
+[43.208s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/cmake/husarion_gz_worldsConfig.cmake
+[43.392s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/cmake/husarion_gz_worldsConfig-version.cmake
+[43.503s] -- Symlinking: /home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/package.xml
+[43.603s] Invoked command in '/home/user/seek_destroy_ws/build/husarion_gz_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/husarion_gz_worlds
