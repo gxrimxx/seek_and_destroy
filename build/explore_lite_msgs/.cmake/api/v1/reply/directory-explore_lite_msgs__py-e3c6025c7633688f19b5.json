@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "explore_lite_msgs__py",
+		"source" : "/home/user/seek_destroy_ws/build/explore_lite_msgs/explore_lite_msgs__py"
+	}
+}
