@@ -1,0 +1,3 @@
+[console_scripts]
+waypoint_explorer = autonomous_exploration.waypoint_explorer:main
+
