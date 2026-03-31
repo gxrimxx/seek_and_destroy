@@ -24,7 +24,12 @@ def generate_launch_description():
             PythonLaunchDescriptionSource(
                 os.path.join(rosbot_gazebo, 'launch', 'simulation.launch.py')
             ),
-            launch_arguments={'robot_model': 'rosbot'}.items()
+            # Passing 'rviz' and 'use_rviz' as false to block the default window
+            launch_arguments={
+                'robot_model': 'rosbot',
+                'rviz': 'false',       
+                'use_rviz': 'false'
+            }.items()
         ),
 
         # 2. SLAM Toolbox — Delayed 5s
@@ -53,7 +58,7 @@ def generate_launch_description():
             )
         ]),
 
-        # 4. RViz2 — Delayed 12s, loading your custom config
+        # 4. RViz2 — Delayed 12s, loading our custom config
         TimerAction(period=12.0, actions=[
             Node(
                 package='rviz2',

@@ -1,0 +1,7 @@
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rosbot_hardware_interfaces.dir/build.make:76: CMakeFiles/rosbot_hardware_interfaces.dir/src/rosbot_system.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/rosbot_hardware_interfaces.dir/build.make:90: CMakeFiles/rosbot_hardware_interfaces.dir/src/rosbot_imu_sensor.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rosbot_hardware_interfaces.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

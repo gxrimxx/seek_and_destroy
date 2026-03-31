@@ -1,0 +1,1074 @@
+[0.625s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--parallel-workers', '1']
+[0.625s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=1, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fccee5cdf90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fccee5cd540>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fccee5cd540>>, mixin_verb=('build',))
+[1.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.115s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.115s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/seek_destroy_ws'
+[1.115s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.116s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.149s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.150s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration) by extensions ['ignore', 'ignore_ament_install']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration) by extension 'ignore'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration) by extension 'ignore_ament_install'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration) by extensions ['colcon_pkg']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration) by extension 'colcon_pkg'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration) by extensions ['colcon_meta']
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration) by extension 'colcon_meta'
+[1.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration) by extensions ['ros']
+[1.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration) by extension 'ros'
+[1.156s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration' with type 'ros.ament_python' and name 'autonomous_exploration'
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/husarion_components_description) by extensions ['ignore', 'ignore_ament_install']
+[1.156s] Level 1:colcon.colcon_core.package_identification:_identify(src/husarion_components_description) by extension 'ignore'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/husarion_components_description) by extension 'ignore_ament_install'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/husarion_components_description) by extensions ['colcon_pkg']
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/husarion_components_description) by extension 'colcon_pkg'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/husarion_components_description) by extensions ['colcon_meta']
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/husarion_components_description) by extension 'colcon_meta'
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/husarion_components_description) by extensions ['ros']
+[1.157s] Level 1:colcon.colcon_core.package_identification:_identify(src/husarion_components_description) by extension 'ros'
+[1.178s] DEBUG:colcon.colcon_core.package_identification:Package 'src/husarion_components_description' with type 'ros.ament_cmake' and name 'husarion_components_description'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/husarion_gz_worlds) by extensions ['ignore', 'ignore_ament_install']
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/husarion_gz_worlds) by extension 'ignore'
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/husarion_gz_worlds) by extension 'ignore_ament_install'
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/husarion_gz_worlds) by extensions ['colcon_pkg']
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/husarion_gz_worlds) by extension 'colcon_pkg'
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/husarion_gz_worlds) by extensions ['colcon_meta']
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/husarion_gz_worlds) by extension 'colcon_meta'
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/husarion_gz_worlds) by extensions ['ros']
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/husarion_gz_worlds) by extension 'ros'
+[1.180s] DEBUG:colcon.colcon_core.package_identification:Package 'src/husarion_gz_worlds' with type 'ros.ament_cmake' and name 'husarion_gz_worlds'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ignore'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ignore_ament_install'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['colcon_pkg']
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'colcon_pkg'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['colcon_meta']
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'colcon_meta'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['ros']
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'ros'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['cmake', 'python']
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'cmake'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'python'
+[1.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extensions ['python_setup_py']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2) by extension 'python_setup_py'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['ignore', 'ignore_ament_install']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ignore'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ignore_ament_install'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['colcon_pkg']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'colcon_pkg'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['colcon_meta']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'colcon_meta'
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extensions ['ros']
+[1.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore) by extension 'ros'
+[1.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/m-explore-ros2/explore' with type 'ros.ament_cmake' and name 'explore_lite'
+[1.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore_lite_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore_lite_msgs) by extension 'ignore'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore_lite_msgs) by extension 'ignore_ament_install'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore_lite_msgs) by extensions ['colcon_pkg']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore_lite_msgs) by extension 'colcon_pkg'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore_lite_msgs) by extensions ['colcon_meta']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore_lite_msgs) by extension 'colcon_meta'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore_lite_msgs) by extensions ['ros']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/explore_lite_msgs) by extension 'ros'
+[1.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/m-explore-ros2/explore_lite_msgs' with type 'ros.ament_cmake' and name 'explore_lite_msgs'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['ignore', 'ignore_ament_install']
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'ignore'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'ignore_ament_install'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['colcon_pkg']
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'colcon_pkg'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['colcon_meta']
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'colcon_meta'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extensions ['ros']
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/m-explore-ros2/map_merge) by extension 'ros'
+[1.185s] DEBUG:colcon.colcon_core.package_identification:Package 'src/m-explore-ros2/map_merge' with type 'ros.ament_cmake' and name 'multirobot_map_merge'
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extension 'ignore'
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extension 'ignore_ament_install'
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extensions ['colcon_pkg']
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extension 'colcon_pkg'
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extensions ['colcon_meta']
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extension 'colcon_meta'
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extensions ['ros']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extension 'ros'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extensions ['cmake', 'python']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extension 'cmake'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extension 'python'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extensions ['python_setup_py']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros) by extension 'python_setup_py'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/docker) by extensions ['ignore', 'ignore_ament_install']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/docker) by extension 'ignore'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/docker) by extension 'ignore_ament_install'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/docker) by extensions ['colcon_pkg']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/docker) by extension 'colcon_pkg'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/docker) by extensions ['colcon_meta']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/docker) by extension 'colcon_meta'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/docker) by extensions ['ros']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/docker) by extension 'ros'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/docker) by extensions ['cmake', 'python']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/docker) by extension 'cmake'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/docker) by extension 'python'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/docker) by extensions ['python_setup_py']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/docker) by extension 'python_setup_py'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot) by extensions ['ignore', 'ignore_ament_install']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot) by extension 'ignore'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot) by extension 'ignore_ament_install'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot) by extensions ['colcon_pkg']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot) by extension 'colcon_pkg'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot) by extensions ['colcon_meta']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot) by extension 'colcon_meta'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot) by extensions ['ros']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot) by extension 'ros'
+[1.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbot_ros/rosbot' with type 'ros.ament_cmake' and name 'rosbot'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_bringup) by extension 'ignore'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_bringup) by extension 'ignore_ament_install'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_bringup) by extensions ['colcon_pkg']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_bringup) by extension 'colcon_pkg'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_bringup) by extensions ['colcon_meta']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_bringup) by extension 'colcon_meta'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_bringup) by extensions ['ros']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_bringup) by extension 'ros'
+[1.193s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbot_ros/rosbot_bringup' with type 'ros.ament_python' and name 'rosbot_bringup'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_controller) by extension 'ignore'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_controller) by extension 'ignore_ament_install'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_controller) by extensions ['colcon_pkg']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_controller) by extension 'colcon_pkg'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_controller) by extensions ['colcon_meta']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_controller) by extension 'colcon_meta'
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_controller) by extensions ['ros']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_controller) by extension 'ros'
+[1.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbot_ros/rosbot_controller' with type 'ros.ament_python' and name 'rosbot_controller'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_description) by extension 'ignore'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_description) by extension 'ignore_ament_install'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_description) by extensions ['colcon_pkg']
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_description) by extension 'colcon_pkg'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_description) by extensions ['colcon_meta']
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_description) by extension 'colcon_meta'
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_description) by extensions ['ros']
+[1.195s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_description) by extension 'ros'
+[1.196s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbot_ros/rosbot_description' with type 'ros.ament_cmake' and name 'rosbot_description'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_gazebo) by extension 'ignore'
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_gazebo) by extension 'ignore_ament_install'
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_gazebo) by extensions ['colcon_pkg']
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_gazebo) by extension 'colcon_pkg'
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_gazebo) by extensions ['colcon_meta']
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_gazebo) by extension 'colcon_meta'
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_gazebo) by extensions ['ros']
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_gazebo) by extension 'ros'
+[1.202s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbot_ros/rosbot_gazebo' with type 'ros.ament_python' and name 'rosbot_gazebo'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_hardware_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_hardware_interfaces) by extension 'ignore'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_hardware_interfaces) by extension 'ignore_ament_install'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_hardware_interfaces) by extensions ['colcon_pkg']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_hardware_interfaces) by extension 'colcon_pkg'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_hardware_interfaces) by extensions ['colcon_meta']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_hardware_interfaces) by extension 'colcon_meta'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_hardware_interfaces) by extensions ['ros']
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_hardware_interfaces) by extension 'ros'
+[1.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbot_ros/rosbot_hardware_interfaces' with type 'ros.ament_cmake' and name 'rosbot_hardware_interfaces'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_joy) by extensions ['ignore', 'ignore_ament_install']
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_joy) by extension 'ignore'
+[1.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_joy) by extension 'ignore_ament_install'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_joy) by extensions ['colcon_pkg']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_joy) by extension 'colcon_pkg'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_joy) by extensions ['colcon_meta']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_joy) by extension 'colcon_meta'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_joy) by extensions ['ros']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_joy) by extension 'ros'
+[1.206s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbot_ros/rosbot_joy' with type 'ros.ament_cmake' and name 'rosbot_joy'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_localization) by extensions ['ignore', 'ignore_ament_install']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_localization) by extension 'ignore'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_localization) by extension 'ignore_ament_install'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_localization) by extensions ['colcon_pkg']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_localization) by extension 'colcon_pkg'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_localization) by extensions ['colcon_meta']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_localization) by extension 'colcon_meta'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_localization) by extensions ['ros']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_localization) by extension 'ros'
+[1.207s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbot_ros/rosbot_localization' with type 'ros.ament_cmake' and name 'rosbot_localization'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_utils) by extensions ['ignore', 'ignore_ament_install']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_utils) by extension 'ignore'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_utils) by extension 'ignore_ament_install'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_utils) by extensions ['colcon_pkg']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_utils) by extension 'colcon_pkg'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_utils) by extensions ['colcon_meta']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_utils) by extension 'colcon_meta'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_utils) by extensions ['ros']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/rosbot_ros/rosbot_utils) by extension 'ros'
+[1.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rosbot_ros/rosbot_utils' with type 'ros.ament_python' and name 'rosbot_utils'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy) by extensions ['ignore', 'ignore_ament_install']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy) by extension 'ignore'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy) by extension 'ignore_ament_install'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy) by extensions ['colcon_pkg']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy) by extension 'colcon_pkg'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy) by extensions ['colcon_meta']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy) by extension 'colcon_meta'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy) by extensions ['ros']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy) by extension 'ros'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy) by extensions ['cmake', 'python']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy) by extension 'cmake'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy) by extension 'python'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy) by extensions ['python_setup_py']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy) by extension 'python_setup_py'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/config) by extensions ['ignore', 'ignore_ament_install']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/config) by extension 'ignore'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/config) by extension 'ignore_ament_install'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/config) by extensions ['colcon_pkg']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/config) by extension 'colcon_pkg'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/config) by extensions ['colcon_meta']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/config) by extension 'colcon_meta'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/config) by extensions ['ros']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/config) by extension 'ros'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/config) by extensions ['cmake', 'python']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/config) by extension 'cmake'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/config) by extension 'python'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/config) by extensions ['python_setup_py']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/config) by extension 'python_setup_py'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/maps) by extensions ['ignore', 'ignore_ament_install']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/maps) by extension 'ignore'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/maps) by extension 'ignore_ament_install'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/maps) by extensions ['colcon_pkg']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/maps) by extension 'colcon_pkg'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/maps) by extensions ['colcon_meta']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/maps) by extension 'colcon_meta'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/maps) by extensions ['ros']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/maps) by extension 'ros'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/maps) by extensions ['cmake', 'python']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/maps) by extension 'cmake'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/maps) by extension 'python'
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/maps) by extensions ['python_setup_py']
+[1.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/seek_destroy/maps) by extension 'python_setup_py'
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.263s] Level 5:colcon.colcon_core.verb:set package 'autonomous_exploration' build argument 'cmake_args' from command line to 'None'
+[1.263s] Level 5:colcon.colcon_core.verb:set package 'autonomous_exploration' build argument 'cmake_target' from command line to 'None'
+[1.263s] Level 5:colcon.colcon_core.verb:set package 'autonomous_exploration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.263s] Level 5:colcon.colcon_core.verb:set package 'autonomous_exploration' build argument 'cmake_clean_cache' from command line to 'False'
+[1.263s] Level 5:colcon.colcon_core.verb:set package 'autonomous_exploration' build argument 'cmake_clean_first' from command line to 'False'
+[1.263s] Level 5:colcon.colcon_core.verb:set package 'autonomous_exploration' build argument 'cmake_force_configure' from command line to 'False'
+[1.263s] Level 5:colcon.colcon_core.verb:set package 'autonomous_exploration' build argument 'ament_cmake_args' from command line to 'None'
+[1.263s] Level 5:colcon.colcon_core.verb:set package 'autonomous_exploration' build argument 'catkin_cmake_args' from command line to 'None'
+[1.263s] Level 5:colcon.colcon_core.verb:set package 'autonomous_exploration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.263s] DEBUG:colcon.colcon_core.verb:Building package 'autonomous_exploration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/seek_destroy_ws/build/autonomous_exploration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/seek_destroy_ws/install/autonomous_exploration', 'merge_install': False, 'path': '/home/user/seek_destroy_ws/src/autonomous_exploration', 'symlink_install': True, 'test_result_base': None}
+[1.263s] Level 5:colcon.colcon_core.verb:set package 'explore_lite_msgs' build argument 'cmake_args' from command line to 'None'
+[1.263s] Level 5:colcon.colcon_core.verb:set package 'explore_lite_msgs' build argument 'cmake_target' from command line to 'None'
+[1.263s] Level 5:colcon.colcon_core.verb:set package 'explore_lite_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.263s] Level 5:colcon.colcon_core.verb:set package 'explore_lite_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.263s] Level 5:colcon.colcon_core.verb:set package 'explore_lite_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.263s] Level 5:colcon.colcon_core.verb:set package 'explore_lite_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.264s] Level 5:colcon.colcon_core.verb:set package 'explore_lite_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.264s] Level 5:colcon.colcon_core.verb:set package 'explore_lite_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.264s] Level 5:colcon.colcon_core.verb:set package 'explore_lite_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.264s] DEBUG:colcon.colcon_core.verb:Building package 'explore_lite_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/seek_destroy_ws/build/explore_lite_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/seek_destroy_ws/install/explore_lite_msgs', 'merge_install': False, 'path': '/home/user/seek_destroy_ws/src/m-explore-ros2/explore_lite_msgs', 'symlink_install': True, 'test_result_base': None}
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'husarion_components_description' build argument 'cmake_args' from command line to 'None'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'husarion_components_description' build argument 'cmake_target' from command line to 'None'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'husarion_components_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'husarion_components_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'husarion_components_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'husarion_components_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'husarion_components_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'husarion_components_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'husarion_components_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.265s] DEBUG:colcon.colcon_core.verb:Building package 'husarion_components_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/seek_destroy_ws/build/husarion_components_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/seek_destroy_ws/install/husarion_components_description', 'merge_install': False, 'path': '/home/user/seek_destroy_ws/src/husarion_components_description', 'symlink_install': True, 'test_result_base': None}
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'husarion_gz_worlds' build argument 'cmake_args' from command line to 'None'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'husarion_gz_worlds' build argument 'cmake_target' from command line to 'None'
+[1.265s] Level 5:colcon.colcon_core.verb:set package 'husarion_gz_worlds' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'husarion_gz_worlds' build argument 'cmake_clean_cache' from command line to 'False'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'husarion_gz_worlds' build argument 'cmake_clean_first' from command line to 'False'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'husarion_gz_worlds' build argument 'cmake_force_configure' from command line to 'False'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'husarion_gz_worlds' build argument 'ament_cmake_args' from command line to 'None'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'husarion_gz_worlds' build argument 'catkin_cmake_args' from command line to 'None'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'husarion_gz_worlds' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.266s] DEBUG:colcon.colcon_core.verb:Building package 'husarion_gz_worlds' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/seek_destroy_ws/build/husarion_gz_worlds', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/seek_destroy_ws/install/husarion_gz_worlds', 'merge_install': False, 'path': '/home/user/seek_destroy_ws/src/husarion_gz_worlds', 'symlink_install': True, 'test_result_base': None}
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_args' from command line to 'None'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_target' from command line to 'None'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_clean_cache' from command line to 'False'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_clean_first' from command line to 'False'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'cmake_force_configure' from command line to 'False'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'ament_cmake_args' from command line to 'None'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'catkin_cmake_args' from command line to 'None'
+[1.266s] Level 5:colcon.colcon_core.verb:set package 'multirobot_map_merge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.266s] DEBUG:colcon.colcon_core.verb:Building package 'multirobot_map_merge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/seek_destroy_ws/build/multirobot_map_merge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/seek_destroy_ws/install/multirobot_map_merge', 'merge_install': False, 'path': '/home/user/seek_destroy_ws/src/m-explore-ros2/map_merge', 'symlink_install': True, 'test_result_base': None}
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'rosbot' build argument 'cmake_args' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'rosbot' build argument 'cmake_target' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'rosbot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'rosbot' build argument 'cmake_clean_cache' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'rosbot' build argument 'cmake_clean_first' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'rosbot' build argument 'cmake_force_configure' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'rosbot' build argument 'ament_cmake_args' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'rosbot' build argument 'catkin_cmake_args' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'rosbot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.267s] DEBUG:colcon.colcon_core.verb:Building package 'rosbot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/seek_destroy_ws/build/rosbot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/seek_destroy_ws/install/rosbot', 'merge_install': False, 'path': '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot', 'symlink_install': True, 'test_result_base': None}
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'cmake_args' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'cmake_target' from command line to 'None'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.267s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'rosbot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.268s] DEBUG:colcon.colcon_core.verb:Building package 'rosbot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/seek_destroy_ws/build/rosbot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/seek_destroy_ws/install/rosbot_bringup', 'merge_install': False, 'path': '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_bringup', 'symlink_install': True, 'test_result_base': None}
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'rosbot_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'rosbot_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'rosbot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'rosbot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'rosbot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'rosbot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'rosbot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'rosbot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.268s] Level 5:colcon.colcon_core.verb:set package 'rosbot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.268s] DEBUG:colcon.colcon_core.verb:Building package 'rosbot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/seek_destroy_ws/build/rosbot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/seek_destroy_ws/install/rosbot_gazebo', 'merge_install': False, 'path': '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_gazebo', 'symlink_install': True, 'test_result_base': None}
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'rosbot_hardware_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'rosbot_hardware_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'rosbot_hardware_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'rosbot_hardware_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'rosbot_hardware_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'rosbot_hardware_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'rosbot_hardware_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'rosbot_hardware_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.269s] Level 5:colcon.colcon_core.verb:set package 'rosbot_hardware_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.269s] DEBUG:colcon.colcon_core.verb:Building package 'rosbot_hardware_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/seek_destroy_ws/build/rosbot_hardware_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces', 'merge_install': False, 'path': '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_hardware_interfaces', 'symlink_install': True, 'test_result_base': None}
+[1.270s] Level 5:colcon.colcon_core.verb:set package 'rosbot_joy' build argument 'cmake_args' from command line to 'None'
+[1.270s] Level 5:colcon.colcon_core.verb:set package 'rosbot_joy' build argument 'cmake_target' from command line to 'None'
+[1.270s] Level 5:colcon.colcon_core.verb:set package 'rosbot_joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.270s] Level 5:colcon.colcon_core.verb:set package 'rosbot_joy' build argument 'cmake_clean_cache' from command line to 'False'
+[1.270s] Level 5:colcon.colcon_core.verb:set package 'rosbot_joy' build argument 'cmake_clean_first' from command line to 'False'
+[1.270s] Level 5:colcon.colcon_core.verb:set package 'rosbot_joy' build argument 'cmake_force_configure' from command line to 'False'
+[1.270s] Level 5:colcon.colcon_core.verb:set package 'rosbot_joy' build argument 'ament_cmake_args' from command line to 'None'
+[1.270s] Level 5:colcon.colcon_core.verb:set package 'rosbot_joy' build argument 'catkin_cmake_args' from command line to 'None'
+[1.270s] Level 5:colcon.colcon_core.verb:set package 'rosbot_joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.270s] DEBUG:colcon.colcon_core.verb:Building package 'rosbot_joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/seek_destroy_ws/build/rosbot_joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/seek_destroy_ws/install/rosbot_joy', 'merge_install': False, 'path': '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_joy', 'symlink_install': True, 'test_result_base': None}
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'rosbot_localization' build argument 'cmake_args' from command line to 'None'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'rosbot_localization' build argument 'cmake_target' from command line to 'None'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'rosbot_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'rosbot_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'rosbot_localization' build argument 'cmake_clean_first' from command line to 'False'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'rosbot_localization' build argument 'cmake_force_configure' from command line to 'False'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'rosbot_localization' build argument 'ament_cmake_args' from command line to 'None'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'rosbot_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'rosbot_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.271s] DEBUG:colcon.colcon_core.verb:Building package 'rosbot_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/seek_destroy_ws/build/rosbot_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/seek_destroy_ws/install/rosbot_localization', 'merge_install': False, 'path': '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_localization', 'symlink_install': True, 'test_result_base': None}
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'rosbot_utils' build argument 'cmake_args' from command line to 'None'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'rosbot_utils' build argument 'cmake_target' from command line to 'None'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'rosbot_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'rosbot_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'rosbot_utils' build argument 'cmake_clean_first' from command line to 'False'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'rosbot_utils' build argument 'cmake_force_configure' from command line to 'False'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'rosbot_utils' build argument 'ament_cmake_args' from command line to 'None'
+[1.271s] Level 5:colcon.colcon_core.verb:set package 'rosbot_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'rosbot_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.272s] DEBUG:colcon.colcon_core.verb:Building package 'rosbot_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/seek_destroy_ws/build/rosbot_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/seek_destroy_ws/install/rosbot_utils', 'merge_install': False, 'path': '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_utils', 'symlink_install': True, 'test_result_base': None}
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_args' from command line to 'None'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_target' from command line to 'None'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_clean_cache' from command line to 'False'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_clean_first' from command line to 'False'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'cmake_force_configure' from command line to 'False'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'ament_cmake_args' from command line to 'None'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'catkin_cmake_args' from command line to 'None'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'explore_lite' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.272s] DEBUG:colcon.colcon_core.verb:Building package 'explore_lite' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/seek_destroy_ws/build/explore_lite', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/seek_destroy_ws/install/explore_lite', 'merge_install': False, 'path': '/home/user/seek_destroy_ws/src/m-explore-ros2/explore', 'symlink_install': True, 'test_result_base': None}
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_args' from command line to 'None'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_target' from command line to 'None'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'rosbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.273s] DEBUG:colcon.colcon_core.verb:Building package 'rosbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/seek_destroy_ws/build/rosbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/seek_destroy_ws/install/rosbot_description', 'merge_install': False, 'path': '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_description', 'symlink_install': True, 'test_result_base': None}
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'rosbot_controller' build argument 'cmake_args' from command line to 'None'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'rosbot_controller' build argument 'cmake_target' from command line to 'None'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'rosbot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'rosbot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'rosbot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'rosbot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'rosbot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'rosbot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.273s] Level 5:colcon.colcon_core.verb:set package 'rosbot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.273s] DEBUG:colcon.colcon_core.verb:Building package 'rosbot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/seek_destroy_ws/build/rosbot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/seek_destroy_ws/install/rosbot_controller', 'merge_install': False, 'path': '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_controller', 'symlink_install': True, 'test_result_base': None}
+[1.274s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.275s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.275s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/seek_destroy_ws/src/husarion_components_description' with build type 'ament_cmake'
+[1.275s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/seek_destroy_ws/src/husarion_components_description'
+[1.285s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.285s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.285s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.289s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.290s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.317s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/husarion_components_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/husarion_components_description -- -j8 -l8
+[1.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/husarion_components_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/husarion_components_description -- -j8 -l8
+[1.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/husarion_components_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/husarion_components_description
+[1.573s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husarion_components_description)
+[1.574s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/husarion_components_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/husarion_components_description
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_components_description' for CMake module files
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_components_description' for CMake config files
+[1.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('husarion_components_description', 'cmake_prefix_path')
+[1.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/hook/cmake_prefix_path.ps1'
+[1.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/hook/cmake_prefix_path.dsv'
+[1.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/hook/cmake_prefix_path.sh'
+[1.593s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_components_description/bin'
+[1.593s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_components_description/lib/pkgconfig/husarion_components_description.pc'
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_components_description/lib/python3.10/site-packages'
+[1.595s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_components_description/bin'
+[1.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/package.ps1'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/package.dsv'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/package.sh'
+[1.598s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/package.bash'
+[1.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/package.zsh'
+[1.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/husarion_components_description/share/colcon-core/packages/husarion_components_description)
+[1.600s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husarion_components_description)
+[1.600s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_components_description' for CMake module files
+[1.601s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_components_description' for CMake config files
+[1.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('husarion_components_description', 'cmake_prefix_path')
+[1.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/hook/cmake_prefix_path.ps1'
+[1.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/hook/cmake_prefix_path.dsv'
+[1.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/hook/cmake_prefix_path.sh'
+[1.603s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_components_description/bin'
+[1.603s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_components_description/lib/pkgconfig/husarion_components_description.pc'
+[1.603s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_components_description/lib/python3.10/site-packages'
+[1.603s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_components_description/bin'
+[1.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/package.ps1'
+[1.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/package.dsv'
+[1.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/package.sh'
+[1.605s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/package.bash'
+[1.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/husarion_components_description/share/husarion_components_description/package.zsh'
+[1.606s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/husarion_components_description/share/colcon-core/packages/husarion_components_description)
+[1.607s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/seek_destroy_ws/src/m-explore-ros2/explore_lite_msgs' with build type 'ament_cmake'
+[1.607s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/seek_destroy_ws/src/m-explore-ros2/explore_lite_msgs'
+[1.607s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.608s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/explore_lite_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/explore_lite_msgs -- -j8 -l8
+[2.592s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/explore_lite_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/explore_lite_msgs -- -j8 -l8
+[2.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/explore_lite_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/explore_lite_msgs
+[2.732s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite_msgs)
+[2.733s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite_msgs' for CMake module files
+[2.734s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/explore_lite_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/explore_lite_msgs
+[2.734s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite_msgs' for CMake config files
+[2.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite_msgs', 'cmake_prefix_path')
+[2.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/hook/cmake_prefix_path.ps1'
+[2.736s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/hook/cmake_prefix_path.dsv'
+[2.737s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/hook/cmake_prefix_path.sh'
+[2.738s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite_msgs/lib'
+[2.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite_msgs', 'ld_library_path_lib')
+[2.738s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/hook/ld_library_path_lib.ps1'
+[2.739s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/hook/ld_library_path_lib.dsv'
+[2.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/hook/ld_library_path_lib.sh'
+[2.739s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite_msgs/bin'
+[2.739s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite_msgs/lib/pkgconfig/explore_lite_msgs.pc'
+[2.740s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite_msgs/lib/python3.10/site-packages'
+[2.741s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite_msgs/bin'
+[2.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/package.ps1'
+[2.742s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/package.dsv'
+[2.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/package.sh'
+[2.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/package.bash'
+[2.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/package.zsh'
+[2.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/explore_lite_msgs/share/colcon-core/packages/explore_lite_msgs)
+[2.745s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite_msgs)
+[2.746s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite_msgs' for CMake module files
+[2.747s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite_msgs' for CMake config files
+[2.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite_msgs', 'cmake_prefix_path')
+[2.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/hook/cmake_prefix_path.ps1'
+[2.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/hook/cmake_prefix_path.dsv'
+[2.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/hook/cmake_prefix_path.sh'
+[2.751s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite_msgs/lib'
+[2.751s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite_msgs', 'ld_library_path_lib')
+[2.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/hook/ld_library_path_lib.ps1'
+[2.751s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/hook/ld_library_path_lib.dsv'
+[2.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/hook/ld_library_path_lib.sh'
+[2.752s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite_msgs/bin'
+[2.753s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite_msgs/lib/pkgconfig/explore_lite_msgs.pc'
+[2.753s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite_msgs/lib/python3.10/site-packages'
+[2.753s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite_msgs/bin'
+[2.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/package.ps1'
+[2.755s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/package.dsv'
+[2.755s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/package.sh'
+[2.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/package.bash'
+[2.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/explore_lite_msgs/share/explore_lite_msgs/package.zsh'
+[2.757s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/explore_lite_msgs/share/colcon-core/packages/explore_lite_msgs)
+[2.758s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_utils' with build type 'ament_python'
+[2.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_utils', 'ament_prefix_path')
+[2.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/hook/ament_prefix_path.ps1'
+[2.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/hook/ament_prefix_path.dsv'
+[2.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/hook/ament_prefix_path.sh'
+[2.760s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.760s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.204s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_utils'
+[3.204s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.204s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/rosbot_utils': PYTHONPATH=/home/user/seek_destroy_ws/build/rosbot_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/rosbot_utils/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/rosbot_utils/build --no-deps symlink_data
+[4.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_utils', 'pythonpath_develop')
+[4.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/build/rosbot_utils/share/rosbot_utils/hook/pythonpath_develop.ps1'
+[4.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/rosbot_utils' returned '0': PYTHONPATH=/home/user/seek_destroy_ws/build/rosbot_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/rosbot_utils/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/rosbot_utils/build --no-deps symlink_data
+[4.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/build/rosbot_utils/share/rosbot_utils/hook/pythonpath_develop.dsv'
+[4.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/build/rosbot_utils/share/rosbot_utils/hook/pythonpath_develop.sh'
+[4.546s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_utils' for CMake module files
+[4.547s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_utils' for CMake config files
+[4.547s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_utils/lib'
+[4.548s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_utils/bin'
+[4.548s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_utils/lib/pkgconfig/rosbot_utils.pc'
+[4.548s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_utils/lib/python3.10/site-packages'
+[4.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_utils', 'pythonpath')
+[4.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/hook/pythonpath.ps1'
+[4.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/hook/pythonpath.dsv'
+[4.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/hook/pythonpath.sh'
+[4.550s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_utils/bin'
+[4.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbot_utils)
+[4.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/package.ps1'
+[4.551s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/package.dsv'
+[4.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/package.sh'
+[4.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/package.bash'
+[4.553s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_utils/share/rosbot_utils/package.zsh'
+[4.553s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/rosbot_utils/share/colcon-core/packages/rosbot_utils)
+[4.554s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_description' with build type 'ament_cmake'
+[4.554s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_description'
+[4.554s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.554s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/rosbot_description': CMAKE_PREFIX_PATH=/home/user/seek_destroy_ws/install/husarion_components_description:/home/user/seek_destroy_ws/install/rosbot_localization:/home/user/seek_destroy_ws/install/rosbot_joy:/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces:/home/user/seek_destroy_ws/install/rosbot_description:/home/user/seek_destroy_ws/install/rosbot:/home/user/seek_destroy_ws/install/multirobot_map_merge:/home/user/seek_destroy_ws/install/husarion_gz_worlds:/home/user/seek_destroy_ws/install/explore_lite:/home/user/seek_destroy_ws/install/explore_lite_msgs:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/rosbot_description -- -j8 -l8
+[4.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/rosbot_description' returned '0': CMAKE_PREFIX_PATH=/home/user/seek_destroy_ws/install/husarion_components_description:/home/user/seek_destroy_ws/install/rosbot_localization:/home/user/seek_destroy_ws/install/rosbot_joy:/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces:/home/user/seek_destroy_ws/install/rosbot_description:/home/user/seek_destroy_ws/install/rosbot:/home/user/seek_destroy_ws/install/multirobot_map_merge:/home/user/seek_destroy_ws/install/husarion_gz_worlds:/home/user/seek_destroy_ws/install/explore_lite:/home/user/seek_destroy_ws/install/explore_lite_msgs:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/rosbot_description -- -j8 -l8
+[4.617s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/rosbot_description': CMAKE_PREFIX_PATH=/home/user/seek_destroy_ws/install/husarion_components_description:/home/user/seek_destroy_ws/install/rosbot_localization:/home/user/seek_destroy_ws/install/rosbot_joy:/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces:/home/user/seek_destroy_ws/install/rosbot_description:/home/user/seek_destroy_ws/install/rosbot:/home/user/seek_destroy_ws/install/multirobot_map_merge:/home/user/seek_destroy_ws/install/husarion_gz_worlds:/home/user/seek_destroy_ws/install/explore_lite:/home/user/seek_destroy_ws/install/explore_lite_msgs:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/rosbot_description
+[4.645s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbot_description)
+[4.645s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_description' for CMake module files
+[4.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/rosbot_description' returned '0': CMAKE_PREFIX_PATH=/home/user/seek_destroy_ws/install/husarion_components_description:/home/user/seek_destroy_ws/install/rosbot_localization:/home/user/seek_destroy_ws/install/rosbot_joy:/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces:/home/user/seek_destroy_ws/install/rosbot_description:/home/user/seek_destroy_ws/install/rosbot:/home/user/seek_destroy_ws/install/multirobot_map_merge:/home/user/seek_destroy_ws/install/husarion_gz_worlds:/home/user/seek_destroy_ws/install/explore_lite:/home/user/seek_destroy_ws/install/explore_lite_msgs:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/rosbot_description
+[4.647s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_description' for CMake config files
+[4.648s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_description', 'cmake_prefix_path')
+[4.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_description/share/rosbot_description/hook/cmake_prefix_path.ps1'
+[4.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/rosbot_description/share/rosbot_description/hook/cmake_prefix_path.dsv'
+[4.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_description/share/rosbot_description/hook/cmake_prefix_path.sh'
+[4.649s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_description/bin'
+[4.649s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_description/lib/pkgconfig/rosbot_description.pc'
+[4.650s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_description/lib/python3.10/site-packages'
+[4.650s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_description/bin'
+[4.650s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_description/share/rosbot_description/package.ps1'
+[4.651s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/rosbot_description/share/rosbot_description/package.dsv'
+[4.651s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_description/share/rosbot_description/package.sh'
+[4.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_description/share/rosbot_description/package.bash'
+[4.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_description/share/rosbot_description/package.zsh'
+[4.652s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/rosbot_description/share/colcon-core/packages/rosbot_description)
+[4.653s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbot_description)
+[4.653s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_description' for CMake module files
+[4.654s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_description' for CMake config files
+[4.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_description', 'cmake_prefix_path')
+[4.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_description/share/rosbot_description/hook/cmake_prefix_path.ps1'
+[4.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/rosbot_description/share/rosbot_description/hook/cmake_prefix_path.dsv'
+[4.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_description/share/rosbot_description/hook/cmake_prefix_path.sh'
+[4.656s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_description/bin'
+[4.656s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_description/lib/pkgconfig/rosbot_description.pc'
+[4.656s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_description/lib/python3.10/site-packages'
+[4.657s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_description/bin'
+[4.657s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_description/share/rosbot_description/package.ps1'
+[4.657s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/rosbot_description/share/rosbot_description/package.dsv'
+[4.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_description/share/rosbot_description/package.sh'
+[4.658s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_description/share/rosbot_description/package.bash'
+[4.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_description/share/rosbot_description/package.zsh'
+[4.659s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/rosbot_description/share/colcon-core/packages/rosbot_description)
+[4.660s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/seek_destroy_ws/src/autonomous_exploration' with build type 'ament_python'
+[4.660s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomous_exploration', 'ament_prefix_path')
+[4.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/autonomous_exploration/share/autonomous_exploration/hook/ament_prefix_path.ps1'
+[4.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/autonomous_exploration/share/autonomous_exploration/hook/ament_prefix_path.dsv'
+[4.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/autonomous_exploration/share/autonomous_exploration/hook/ament_prefix_path.sh'
+[4.662s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.662s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.027s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/seek_destroy_ws/src/autonomous_exploration'
+[5.027s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.027s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/autonomous_exploration': PYTHONPATH=/home/user/seek_destroy_ws/build/autonomous_exploration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/autonomous_exploration/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/autonomous_exploration/build --no-deps symlink_data
+[6.127s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomous_exploration', 'pythonpath_develop')
+[6.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/build/autonomous_exploration/share/autonomous_exploration/hook/pythonpath_develop.ps1'
+[6.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/autonomous_exploration' returned '0': PYTHONPATH=/home/user/seek_destroy_ws/build/autonomous_exploration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/autonomous_exploration/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/autonomous_exploration/build --no-deps symlink_data
+[6.128s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/build/autonomous_exploration/share/autonomous_exploration/hook/pythonpath_develop.dsv'
+[6.129s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/build/autonomous_exploration/share/autonomous_exploration/hook/pythonpath_develop.sh'
+[6.129s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/autonomous_exploration' for CMake module files
+[6.130s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/autonomous_exploration' for CMake config files
+[6.131s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/autonomous_exploration/lib'
+[6.131s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/autonomous_exploration/bin'
+[6.131s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/autonomous_exploration/lib/pkgconfig/autonomous_exploration.pc'
+[6.131s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/autonomous_exploration/lib/python3.10/site-packages'
+[6.131s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomous_exploration', 'pythonpath')
+[6.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/autonomous_exploration/share/autonomous_exploration/hook/pythonpath.ps1'
+[6.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/autonomous_exploration/share/autonomous_exploration/hook/pythonpath.dsv'
+[6.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/autonomous_exploration/share/autonomous_exploration/hook/pythonpath.sh'
+[6.133s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/autonomous_exploration/bin'
+[6.133s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autonomous_exploration)
+[6.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/autonomous_exploration/share/autonomous_exploration/package.ps1'
+[6.134s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/autonomous_exploration/share/autonomous_exploration/package.dsv'
+[6.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/autonomous_exploration/share/autonomous_exploration/package.sh'
+[6.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/autonomous_exploration/share/autonomous_exploration/package.bash'
+[6.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/autonomous_exploration/share/autonomous_exploration/package.zsh'
+[6.136s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/autonomous_exploration/share/colcon-core/packages/autonomous_exploration)
+[6.136s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/seek_destroy_ws/src/husarion_gz_worlds' with build type 'ament_cmake'
+[6.137s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/seek_destroy_ws/src/husarion_gz_worlds'
+[6.137s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.137s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.151s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/husarion_gz_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/husarion_gz_worlds -- -j8 -l8
+[6.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/husarion_gz_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/husarion_gz_worlds -- -j8 -l8
+[6.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/husarion_gz_worlds': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/husarion_gz_worlds
+[6.229s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husarion_gz_worlds)
+[6.230s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_gz_worlds' for CMake module files
+[6.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/husarion_gz_worlds' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/husarion_gz_worlds
+[6.231s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_gz_worlds' for CMake config files
+[6.231s] Level 1:colcon.colcon_core.shell:create_environment_hook('husarion_gz_worlds', 'cmake_prefix_path')
+[6.231s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/hook/cmake_prefix_path.ps1'
+[6.232s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/hook/cmake_prefix_path.dsv'
+[6.232s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/hook/cmake_prefix_path.sh'
+[6.233s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_gz_worlds/bin'
+[6.233s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_gz_worlds/lib/pkgconfig/husarion_gz_worlds.pc'
+[6.233s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_gz_worlds/lib/python3.10/site-packages'
+[6.234s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_gz_worlds/bin'
+[6.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/package.ps1'
+[6.235s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/package.dsv'
+[6.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/package.sh'
+[6.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/package.bash'
+[6.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/package.zsh'
+[6.236s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/husarion_gz_worlds/share/colcon-core/packages/husarion_gz_worlds)
+[6.237s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(husarion_gz_worlds)
+[6.237s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_gz_worlds' for CMake module files
+[6.238s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_gz_worlds' for CMake config files
+[6.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('husarion_gz_worlds', 'cmake_prefix_path')
+[6.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/hook/cmake_prefix_path.ps1'
+[6.238s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/hook/cmake_prefix_path.dsv'
+[6.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/hook/cmake_prefix_path.sh'
+[6.239s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_gz_worlds/bin'
+[6.239s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_gz_worlds/lib/pkgconfig/husarion_gz_worlds.pc'
+[6.240s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_gz_worlds/lib/python3.10/site-packages'
+[6.240s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/husarion_gz_worlds/bin'
+[6.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/package.ps1'
+[6.241s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/package.dsv'
+[6.241s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/package.sh'
+[6.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/package.bash'
+[6.242s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/husarion_gz_worlds/share/husarion_gz_worlds/package.zsh'
+[6.243s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/husarion_gz_worlds/share/colcon-core/packages/husarion_gz_worlds)
+[6.243s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/seek_destroy_ws/src/m-explore-ros2/map_merge' with build type 'ament_cmake'
+[6.244s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/seek_destroy_ws/src/m-explore-ros2/map_merge'
+[6.244s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.244s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/multirobot_map_merge -- -j8 -l8
+[31.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/multirobot_map_merge -- -j8 -l8
+[31.018s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/multirobot_map_merge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/multirobot_map_merge
+[31.292s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multirobot_map_merge)
+[31.292s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/multirobot_map_merge' for CMake module files
+[31.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/multirobot_map_merge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/multirobot_map_merge
+[31.293s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/multirobot_map_merge' for CMake config files
+[31.294s] Level 1:colcon.colcon_core.shell:create_environment_hook('multirobot_map_merge', 'cmake_prefix_path')
+[31.294s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.ps1'
+[31.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.dsv'
+[31.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.sh'
+[31.295s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/multirobot_map_merge/lib'
+[31.295s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/multirobot_map_merge/bin'
+[31.295s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/multirobot_map_merge/lib/pkgconfig/multirobot_map_merge.pc'
+[31.296s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/multirobot_map_merge/lib/python3.10/site-packages'
+[31.296s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/multirobot_map_merge/bin'
+[31.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.ps1'
+[31.297s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv'
+[31.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.sh'
+[31.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.bash'
+[31.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.zsh'
+[31.299s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/multirobot_map_merge/share/colcon-core/packages/multirobot_map_merge)
+[31.299s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(multirobot_map_merge)
+[31.300s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/multirobot_map_merge' for CMake module files
+[31.300s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/multirobot_map_merge' for CMake config files
+[31.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('multirobot_map_merge', 'cmake_prefix_path')
+[31.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.ps1'
+[31.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.dsv'
+[31.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/multirobot_map_merge/share/multirobot_map_merge/hook/cmake_prefix_path.sh'
+[31.302s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/multirobot_map_merge/lib'
+[31.302s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/multirobot_map_merge/bin'
+[31.302s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/multirobot_map_merge/lib/pkgconfig/multirobot_map_merge.pc'
+[31.302s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/multirobot_map_merge/lib/python3.10/site-packages'
+[31.303s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/multirobot_map_merge/bin'
+[31.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.ps1'
+[31.304s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.dsv'
+[31.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.sh'
+[31.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.bash'
+[31.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/multirobot_map_merge/share/multirobot_map_merge/package.zsh'
+[31.305s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/multirobot_map_merge/share/colcon-core/packages/multirobot_map_merge)
+[31.306s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot' with build type 'ament_cmake'
+[31.306s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot'
+[31.306s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/rosbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/rosbot -- -j8 -l8
+[31.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/rosbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/rosbot -- -j8 -l8
+[31.363s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/rosbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/rosbot
+[31.384s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbot)
+[31.385s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot' for CMake module files
+[31.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/rosbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/rosbot
+[31.386s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot' for CMake config files
+[31.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot', 'cmake_prefix_path')
+[31.386s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot/share/rosbot/hook/cmake_prefix_path.ps1'
+[31.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/rosbot/share/rosbot/hook/cmake_prefix_path.dsv'
+[31.388s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot/share/rosbot/hook/cmake_prefix_path.sh'
+[31.389s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot/bin'
+[31.389s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot/lib/pkgconfig/rosbot.pc'
+[31.389s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot/lib/python3.10/site-packages'
+[31.390s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot/bin'
+[31.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot/share/rosbot/package.ps1'
+[31.391s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/rosbot/share/rosbot/package.dsv'
+[31.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot/share/rosbot/package.sh'
+[31.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot/share/rosbot/package.bash'
+[31.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot/share/rosbot/package.zsh'
+[31.393s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/rosbot/share/colcon-core/packages/rosbot)
+[31.393s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbot)
+[31.393s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot' for CMake module files
+[31.394s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot' for CMake config files
+[31.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot', 'cmake_prefix_path')
+[31.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot/share/rosbot/hook/cmake_prefix_path.ps1'
+[31.395s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/rosbot/share/rosbot/hook/cmake_prefix_path.dsv'
+[31.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot/share/rosbot/hook/cmake_prefix_path.sh'
+[31.396s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot/bin'
+[31.396s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot/lib/pkgconfig/rosbot.pc'
+[31.396s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot/lib/python3.10/site-packages'
+[31.396s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot/bin'
+[31.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot/share/rosbot/package.ps1'
+[31.397s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/rosbot/share/rosbot/package.dsv'
+[31.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot/share/rosbot/package.sh'
+[31.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot/share/rosbot/package.bash'
+[31.399s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot/share/rosbot/package.zsh'
+[31.399s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/rosbot/share/colcon-core/packages/rosbot)
+[31.399s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_bringup' with build type 'ament_python'
+[31.400s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_bringup', 'ament_prefix_path')
+[31.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup/hook/ament_prefix_path.ps1'
+[31.401s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup/hook/ament_prefix_path.dsv'
+[31.401s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup/hook/ament_prefix_path.sh'
+[31.402s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.402s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.819s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_bringup'
+[31.819s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.820s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[32.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/rosbot_bringup': PYTHONPATH=/home/user/seek_destroy_ws/build/rosbot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/rosbot_bringup/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/rosbot_bringup/build --no-deps symlink_data
+[33.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_bringup', 'pythonpath_develop')
+[33.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/build/rosbot_bringup/share/rosbot_bringup/hook/pythonpath_develop.ps1'
+[33.090s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/rosbot_bringup' returned '0': PYTHONPATH=/home/user/seek_destroy_ws/build/rosbot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/rosbot_bringup/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/rosbot_bringup/build --no-deps symlink_data
+[33.091s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/build/rosbot_bringup/share/rosbot_bringup/hook/pythonpath_develop.dsv'
+[33.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/build/rosbot_bringup/share/rosbot_bringup/hook/pythonpath_develop.sh'
+[33.092s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_bringup' for CMake module files
+[33.093s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_bringup' for CMake config files
+[33.093s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_bringup/lib'
+[33.093s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_bringup/bin'
+[33.093s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_bringup/lib/pkgconfig/rosbot_bringup.pc'
+[33.094s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_bringup/lib/python3.10/site-packages'
+[33.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_bringup', 'pythonpath')
+[33.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup/hook/pythonpath.ps1'
+[33.094s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup/hook/pythonpath.dsv'
+[33.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup/hook/pythonpath.sh'
+[33.096s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_bringup/bin'
+[33.096s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbot_bringup)
+[33.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup/package.ps1'
+[33.097s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup/package.dsv'
+[33.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup/package.sh'
+[33.098s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup/package.bash'
+[33.099s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup/package.zsh'
+[33.099s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/rosbot_bringup/share/colcon-core/packages/rosbot_bringup)
+[33.100s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_gazebo' with build type 'ament_python'
+[33.100s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_gazebo', 'ament_prefix_path')
+[33.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_gazebo/share/rosbot_gazebo/hook/ament_prefix_path.ps1'
+[33.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/rosbot_gazebo/share/rosbot_gazebo/hook/ament_prefix_path.dsv'
+[33.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_gazebo/share/rosbot_gazebo/hook/ament_prefix_path.sh'
+[33.103s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[33.103s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[33.467s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_gazebo'
+[33.468s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[33.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[33.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/rosbot_gazebo': PYTHONPATH=/home/user/seek_destroy_ws/build/rosbot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/rosbot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/rosbot_gazebo/build --no-deps symlink_data
+[34.586s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_gazebo', 'pythonpath_develop')
+[34.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/build/rosbot_gazebo/share/rosbot_gazebo/hook/pythonpath_develop.ps1'
+[34.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/rosbot_gazebo' returned '0': PYTHONPATH=/home/user/seek_destroy_ws/build/rosbot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/rosbot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/rosbot_gazebo/build --no-deps symlink_data
+[34.587s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/build/rosbot_gazebo/share/rosbot_gazebo/hook/pythonpath_develop.dsv'
+[34.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/build/rosbot_gazebo/share/rosbot_gazebo/hook/pythonpath_develop.sh'
+[34.588s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_gazebo' for CMake module files
+[34.589s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_gazebo' for CMake config files
+[34.589s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_gazebo/lib'
+[34.589s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_gazebo/bin'
+[34.589s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_gazebo/lib/pkgconfig/rosbot_gazebo.pc'
+[34.590s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_gazebo/lib/python3.10/site-packages'
+[34.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_gazebo', 'pythonpath')
+[34.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_gazebo/share/rosbot_gazebo/hook/pythonpath.ps1'
+[34.590s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/rosbot_gazebo/share/rosbot_gazebo/hook/pythonpath.dsv'
+[34.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_gazebo/share/rosbot_gazebo/hook/pythonpath.sh'
+[34.591s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_gazebo/bin'
+[34.592s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbot_gazebo)
+[34.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_gazebo/share/rosbot_gazebo/package.ps1'
+[34.592s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/rosbot_gazebo/share/rosbot_gazebo/package.dsv'
+[34.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_gazebo/share/rosbot_gazebo/package.sh'
+[34.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_gazebo/share/rosbot_gazebo/package.bash'
+[34.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_gazebo/share/rosbot_gazebo/package.zsh'
+[34.594s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/rosbot_gazebo/share/colcon-core/packages/rosbot_gazebo)
+[34.595s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_hardware_interfaces' with build type 'ament_cmake'
+[34.595s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_hardware_interfaces'
+[34.595s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[34.595s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[34.609s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/rosbot_hardware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/rosbot_hardware_interfaces -- -j8 -l8
+[47.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/rosbot_hardware_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/rosbot_hardware_interfaces -- -j8 -l8
+[47.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/rosbot_hardware_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/rosbot_hardware_interfaces
+[47.927s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbot_hardware_interfaces)
+[47.928s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces' for CMake module files
+[47.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/rosbot_hardware_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/rosbot_hardware_interfaces
+[47.929s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces' for CMake config files
+[47.930s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_hardware_interfaces', 'cmake_prefix_path')
+[47.931s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/hook/cmake_prefix_path.ps1'
+[47.932s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/hook/cmake_prefix_path.dsv'
+[47.932s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/hook/cmake_prefix_path.sh'
+[47.933s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/lib'
+[47.934s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_hardware_interfaces', 'ld_library_path_lib')
+[47.934s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/hook/ld_library_path_lib.ps1'
+[47.934s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/hook/ld_library_path_lib.dsv'
+[47.935s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/hook/ld_library_path_lib.sh'
+[47.935s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/bin'
+[47.935s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/lib/pkgconfig/rosbot_hardware_interfaces.pc'
+[47.936s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/lib/python3.10/site-packages'
+[47.936s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/bin'
+[47.937s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/package.ps1'
+[47.937s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/package.dsv'
+[47.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/package.sh'
+[47.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/package.bash'
+[47.938s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/package.zsh'
+[47.939s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/colcon-core/packages/rosbot_hardware_interfaces)
+[47.939s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbot_hardware_interfaces)
+[47.940s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces' for CMake module files
+[47.940s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces' for CMake config files
+[47.941s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_hardware_interfaces', 'cmake_prefix_path')
+[47.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/hook/cmake_prefix_path.ps1'
+[47.941s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/hook/cmake_prefix_path.dsv'
+[47.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/hook/cmake_prefix_path.sh'
+[47.942s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/lib'
+[47.942s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_hardware_interfaces', 'ld_library_path_lib')
+[47.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/hook/ld_library_path_lib.ps1'
+[47.943s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/hook/ld_library_path_lib.dsv'
+[47.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/hook/ld_library_path_lib.sh'
+[47.944s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/bin'
+[47.944s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/lib/pkgconfig/rosbot_hardware_interfaces.pc'
+[47.944s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/lib/python3.10/site-packages'
+[47.944s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/bin'
+[47.945s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/package.ps1'
+[47.946s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/package.dsv'
+[47.946s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/package.sh'
+[47.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/package.bash'
+[47.947s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/rosbot_hardware_interfaces/package.zsh'
+[47.948s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/share/colcon-core/packages/rosbot_hardware_interfaces)
+[47.948s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_joy' with build type 'ament_cmake'
+[47.948s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_joy'
+[47.949s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[47.949s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[47.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/rosbot_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/rosbot_joy -- -j8 -l8
+[48.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/rosbot_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/rosbot_joy -- -j8 -l8
+[48.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/rosbot_joy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/rosbot_joy
+[48.041s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbot_joy)
+[48.041s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_joy' for CMake module files
+[48.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/rosbot_joy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/rosbot_joy
+[48.042s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_joy' for CMake config files
+[48.042s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_joy', 'cmake_prefix_path')
+[48.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_joy/share/rosbot_joy/hook/cmake_prefix_path.ps1'
+[48.043s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/rosbot_joy/share/rosbot_joy/hook/cmake_prefix_path.dsv'
+[48.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_joy/share/rosbot_joy/hook/cmake_prefix_path.sh'
+[48.044s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_joy/bin'
+[48.044s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_joy/lib/pkgconfig/rosbot_joy.pc'
+[48.045s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_joy/lib/python3.10/site-packages'
+[48.045s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_joy/bin'
+[48.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_joy/share/rosbot_joy/package.ps1'
+[48.046s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/rosbot_joy/share/rosbot_joy/package.dsv'
+[48.046s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_joy/share/rosbot_joy/package.sh'
+[48.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_joy/share/rosbot_joy/package.bash'
+[48.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_joy/share/rosbot_joy/package.zsh'
+[48.048s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/rosbot_joy/share/colcon-core/packages/rosbot_joy)
+[48.048s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbot_joy)
+[48.048s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_joy' for CMake module files
+[48.049s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_joy' for CMake config files
+[48.049s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_joy', 'cmake_prefix_path')
+[48.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_joy/share/rosbot_joy/hook/cmake_prefix_path.ps1'
+[48.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/rosbot_joy/share/rosbot_joy/hook/cmake_prefix_path.dsv'
+[48.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_joy/share/rosbot_joy/hook/cmake_prefix_path.sh'
+[48.051s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_joy/bin'
+[48.051s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_joy/lib/pkgconfig/rosbot_joy.pc'
+[48.051s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_joy/lib/python3.10/site-packages'
+[48.052s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_joy/bin'
+[48.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_joy/share/rosbot_joy/package.ps1'
+[48.053s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/rosbot_joy/share/rosbot_joy/package.dsv'
+[48.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_joy/share/rosbot_joy/package.sh'
+[48.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_joy/share/rosbot_joy/package.bash'
+[48.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_joy/share/rosbot_joy/package.zsh'
+[48.055s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/rosbot_joy/share/colcon-core/packages/rosbot_joy)
+[48.055s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_localization' with build type 'ament_cmake'
+[48.055s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_localization'
+[48.056s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[48.056s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[48.070s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/rosbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/rosbot_localization -- -j8 -l8
+[48.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/rosbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/rosbot_localization -- -j8 -l8
+[48.117s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/rosbot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/rosbot_localization
+[48.144s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbot_localization)
+[48.145s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_localization' for CMake module files
+[48.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/rosbot_localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/rosbot_localization
+[48.146s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_localization' for CMake config files
+[48.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_localization', 'cmake_prefix_path')
+[48.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/hook/cmake_prefix_path.ps1'
+[48.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/hook/cmake_prefix_path.dsv'
+[48.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/hook/cmake_prefix_path.sh'
+[48.148s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_localization/bin'
+[48.148s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_localization/lib/pkgconfig/rosbot_localization.pc'
+[48.149s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_localization/lib/python3.10/site-packages'
+[48.149s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_localization/bin'
+[48.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/package.ps1'
+[48.150s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/package.dsv'
+[48.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/package.sh'
+[48.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/package.bash'
+[48.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/package.zsh'
+[48.152s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/rosbot_localization/share/colcon-core/packages/rosbot_localization)
+[48.152s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbot_localization)
+[48.153s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_localization' for CMake module files
+[48.153s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_localization' for CMake config files
+[48.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_localization', 'cmake_prefix_path')
+[48.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/hook/cmake_prefix_path.ps1'
+[48.155s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/hook/cmake_prefix_path.dsv'
+[48.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/hook/cmake_prefix_path.sh'
+[48.156s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_localization/bin'
+[48.156s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_localization/lib/pkgconfig/rosbot_localization.pc'
+[48.157s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_localization/lib/python3.10/site-packages'
+[48.157s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_localization/bin'
+[48.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/package.ps1'
+[48.159s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/package.dsv'
+[48.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/package.sh'
+[48.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/package.bash'
+[48.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_localization/share/rosbot_localization/package.zsh'
+[48.161s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/rosbot_localization/share/colcon-core/packages/rosbot_localization)
+[48.161s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/seek_destroy_ws/src/m-explore-ros2/explore' with build type 'ament_cmake'
+[48.161s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/seek_destroy_ws/src/m-explore-ros2/explore'
+[48.162s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[48.162s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[48.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/explore_lite': CMAKE_PREFIX_PATH=/home/user/seek_destroy_ws/install/explore_lite_msgs:/home/user/seek_destroy_ws/install/rosbot_localization:/home/user/seek_destroy_ws/install/rosbot_joy:/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces:/home/user/seek_destroy_ws/install/rosbot_description:/home/user/seek_destroy_ws/install/rosbot:/home/user/seek_destroy_ws/install/multirobot_map_merge:/home/user/seek_destroy_ws/install/husarion_gz_worlds:/home/user/seek_destroy_ws/install/husarion_components_description:/home/user/seek_destroy_ws/install/explore_lite:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble LD_LIBRARY_PATH=/home/user/seek_destroy_ws/install/explore_lite_msgs/lib:/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/lib:/home/user/seek_destroy_ws/install/multirobot_map_merge/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/explore_lite -- -j8 -l8
+[74.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/home/user/seek_destroy_ws/install/explore_lite_msgs:/home/user/seek_destroy_ws/install/rosbot_localization:/home/user/seek_destroy_ws/install/rosbot_joy:/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces:/home/user/seek_destroy_ws/install/rosbot_description:/home/user/seek_destroy_ws/install/rosbot:/home/user/seek_destroy_ws/install/multirobot_map_merge:/home/user/seek_destroy_ws/install/husarion_gz_worlds:/home/user/seek_destroy_ws/install/husarion_components_description:/home/user/seek_destroy_ws/install/explore_lite:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble LD_LIBRARY_PATH=/home/user/seek_destroy_ws/install/explore_lite_msgs/lib:/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/lib:/home/user/seek_destroy_ws/install/multirobot_map_merge/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/explore_lite -- -j8 -l8
+[74.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/explore_lite': CMAKE_PREFIX_PATH=/home/user/seek_destroy_ws/install/explore_lite_msgs:/home/user/seek_destroy_ws/install/rosbot_localization:/home/user/seek_destroy_ws/install/rosbot_joy:/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces:/home/user/seek_destroy_ws/install/rosbot_description:/home/user/seek_destroy_ws/install/rosbot:/home/user/seek_destroy_ws/install/multirobot_map_merge:/home/user/seek_destroy_ws/install/husarion_gz_worlds:/home/user/seek_destroy_ws/install/husarion_components_description:/home/user/seek_destroy_ws/install/explore_lite:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble LD_LIBRARY_PATH=/home/user/seek_destroy_ws/install/explore_lite_msgs/lib:/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/lib:/home/user/seek_destroy_ws/install/multirobot_map_merge/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/explore_lite
+[74.549s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite)
+[74.549s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite' for CMake module files
+[74.551s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite' for CMake config files
+[74.551s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite', 'cmake_prefix_path')
+[74.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.ps1'
+[74.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/explore_lite' returned '0': CMAKE_PREFIX_PATH=/home/user/seek_destroy_ws/install/explore_lite_msgs:/home/user/seek_destroy_ws/install/rosbot_localization:/home/user/seek_destroy_ws/install/rosbot_joy:/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces:/home/user/seek_destroy_ws/install/rosbot_description:/home/user/seek_destroy_ws/install/rosbot:/home/user/seek_destroy_ws/install/multirobot_map_merge:/home/user/seek_destroy_ws/install/husarion_gz_worlds:/home/user/seek_destroy_ws/install/husarion_components_description:/home/user/seek_destroy_ws/install/explore_lite:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble LD_LIBRARY_PATH=/home/user/seek_destroy_ws/install/explore_lite_msgs/lib:/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces/lib:/home/user/seek_destroy_ws/install/multirobot_map_merge/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/explore_lite
+[74.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.dsv'
+[74.555s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.sh'
+[74.556s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite/lib'
+[74.556s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite/bin'
+[74.557s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite/lib/pkgconfig/explore_lite.pc'
+[74.557s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite/lib/python3.10/site-packages'
+[74.558s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite/bin'
+[74.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/explore_lite/share/explore_lite/package.ps1'
+[74.560s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/explore_lite/share/explore_lite/package.dsv'
+[74.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/explore_lite/share/explore_lite/package.sh'
+[74.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/explore_lite/share/explore_lite/package.bash'
+[74.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/explore_lite/share/explore_lite/package.zsh'
+[74.562s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/explore_lite/share/colcon-core/packages/explore_lite)
+[74.563s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(explore_lite)
+[74.563s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite' for CMake module files
+[74.564s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite' for CMake config files
+[74.564s] Level 1:colcon.colcon_core.shell:create_environment_hook('explore_lite', 'cmake_prefix_path')
+[74.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.ps1'
+[74.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.dsv'
+[74.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/explore_lite/share/explore_lite/hook/cmake_prefix_path.sh'
+[74.566s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite/lib'
+[74.566s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite/bin'
+[74.566s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite/lib/pkgconfig/explore_lite.pc'
+[74.567s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite/lib/python3.10/site-packages'
+[74.567s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/explore_lite/bin'
+[74.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/explore_lite/share/explore_lite/package.ps1'
+[74.568s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/explore_lite/share/explore_lite/package.dsv'
+[74.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/explore_lite/share/explore_lite/package.sh'
+[74.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/explore_lite/share/explore_lite/package.bash'
+[74.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/explore_lite/share/explore_lite/package.zsh'
+[74.571s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/explore_lite/share/colcon-core/packages/explore_lite)
+[74.572s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_controller' with build type 'ament_python'
+[74.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_controller', 'ament_prefix_path')
+[74.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_controller/share/rosbot_controller/hook/ament_prefix_path.ps1'
+[74.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/rosbot_controller/share/rosbot_controller/hook/ament_prefix_path.dsv'
+[74.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_controller/share/rosbot_controller/hook/ament_prefix_path.sh'
+[74.575s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[74.575s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[75.082s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user/seek_destroy_ws/src/rosbot_ros/rosbot_controller'
+[75.083s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[75.083s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[75.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/seek_destroy_ws/build/rosbot_controller': AMENT_PREFIX_PATH=/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_localization:/home/user/seek_destroy_ws/install/rosbot_joy:/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_description:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/rosbot:/home/user/seek_destroy_ws/install/multirobot_map_merge:/home/user/seek_destroy_ws/install/husarion_gz_worlds:/home/user/seek_destroy_ws/install/husarion_components_description:/home/user/seek_destroy_ws/install/explore_lite:/home/user/seek_destroy_ws/install/explore_lite_msgs:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble CMAKE_PREFIX_PATH=/home/user/seek_destroy_ws/install/rosbot_description:/home/user/seek_destroy_ws/install/husarion_components_description:/home/user/seek_destroy_ws/install/rosbot_localization:/home/user/seek_destroy_ws/install/rosbot_joy:/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces:/home/user/seek_destroy_ws/install/rosbot:/home/user/seek_destroy_ws/install/multirobot_map_merge:/home/user/seek_destroy_ws/install/husarion_gz_worlds:/home/user/seek_destroy_ws/install/explore_lite:/home/user/seek_destroy_ws/install/explore_lite_msgs PYTHONPATH=/home/user/seek_destroy_ws/build/rosbot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/rosbot_controller/lib/python3.10/site-packages:/home/user/seek_destroy_ws/build/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_utils/lib/python3.10/site-packages:/home/user/seek_destroy_ws/build/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_controller/lib/python3.10/site-packages:/home/user/seek_destroy_ws/build/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_gazebo/lib/python3.10/site-packages:/home/user/seek_destroy_ws/build/rosbot_bringup:/home/user/seek_destroy_ws/install/rosbot_bringup/lib/python3.10/site-packages:/home/user/seek_destroy_ws/install/explore_lite_msgs/local/lib/python3.10/dist-packages:/home/user/seek_destroy_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/rosbot_controller/build --no-deps symlink_data
+[76.777s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_controller', 'pythonpath_develop')
+[76.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/build/rosbot_controller/share/rosbot_controller/hook/pythonpath_develop.ps1'
+[76.778s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/seek_destroy_ws/build/rosbot_controller' returned '0': AMENT_PREFIX_PATH=/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_localization:/home/user/seek_destroy_ws/install/rosbot_joy:/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_description:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/rosbot:/home/user/seek_destroy_ws/install/multirobot_map_merge:/home/user/seek_destroy_ws/install/husarion_gz_worlds:/home/user/seek_destroy_ws/install/husarion_components_description:/home/user/seek_destroy_ws/install/explore_lite:/home/user/seek_destroy_ws/install/explore_lite_msgs:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble CMAKE_PREFIX_PATH=/home/user/seek_destroy_ws/install/rosbot_description:/home/user/seek_destroy_ws/install/husarion_components_description:/home/user/seek_destroy_ws/install/rosbot_localization:/home/user/seek_destroy_ws/install/rosbot_joy:/home/user/seek_destroy_ws/install/rosbot_hardware_interfaces:/home/user/seek_destroy_ws/install/rosbot:/home/user/seek_destroy_ws/install/multirobot_map_merge:/home/user/seek_destroy_ws/install/husarion_gz_worlds:/home/user/seek_destroy_ws/install/explore_lite:/home/user/seek_destroy_ws/install/explore_lite_msgs PYTHONPATH=/home/user/seek_destroy_ws/build/rosbot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/rosbot_controller/lib/python3.10/site-packages:/home/user/seek_destroy_ws/build/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_utils/lib/python3.10/site-packages:/home/user/seek_destroy_ws/build/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_controller/lib/python3.10/site-packages:/home/user/seek_destroy_ws/build/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_gazebo/lib/python3.10/site-packages:/home/user/seek_destroy_ws/build/rosbot_bringup:/home/user/seek_destroy_ws/install/rosbot_bringup/lib/python3.10/site-packages:/home/user/seek_destroy_ws/install/explore_lite_msgs/local/lib/python3.10/dist-packages:/home/user/seek_destroy_ws/install/autonomous_exploration/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/rosbot_controller/build --no-deps symlink_data
+[76.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/build/rosbot_controller/share/rosbot_controller/hook/pythonpath_develop.dsv'
+[76.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/build/rosbot_controller/share/rosbot_controller/hook/pythonpath_develop.sh'
+[76.780s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_controller' for CMake module files
+[76.781s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_controller' for CMake config files
+[76.781s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_controller/lib'
+[76.782s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_controller/bin'
+[76.782s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_controller/lib/pkgconfig/rosbot_controller.pc'
+[76.782s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_controller/lib/python3.10/site-packages'
+[76.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('rosbot_controller', 'pythonpath')
+[76.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_controller/share/rosbot_controller/hook/pythonpath.ps1'
+[76.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/seek_destroy_ws/install/rosbot_controller/share/rosbot_controller/hook/pythonpath.dsv'
+[76.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/seek_destroy_ws/install/rosbot_controller/share/rosbot_controller/hook/pythonpath.sh'
+[76.785s] Level 1:colcon.colcon_core.environment:checking '/home/user/seek_destroy_ws/install/rosbot_controller/bin'
+[76.785s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rosbot_controller)
+[76.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_controller/share/rosbot_controller/package.ps1'
+[76.786s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/seek_destroy_ws/install/rosbot_controller/share/rosbot_controller/package.dsv'
+[76.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_controller/share/rosbot_controller/package.sh'
+[76.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_controller/share/rosbot_controller/package.bash'
+[76.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/seek_destroy_ws/install/rosbot_controller/share/rosbot_controller/package.zsh'
+[76.788s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/seek_destroy_ws/install/rosbot_controller/share/colcon-core/packages/rosbot_controller)
+[76.789s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[76.789s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[76.789s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[76.789s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[76.796s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[76.796s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[76.796s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[76.797s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[76.799s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[76.799s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[76.800s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/seek_destroy_ws/install/local_setup.ps1'
+[76.801s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/seek_destroy_ws/install/_local_setup_util_ps1.py'
+[76.803s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/seek_destroy_ws/install/setup.ps1'
+[76.805s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/seek_destroy_ws/install/local_setup.sh'
+[76.806s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/seek_destroy_ws/install/_local_setup_util_sh.py'
+[76.807s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/seek_destroy_ws/install/setup.sh'
+[76.809s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/seek_destroy_ws/install/local_setup.bash'
+[76.810s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/seek_destroy_ws/install/setup.bash'
+[76.812s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/seek_destroy_ws/install/local_setup.zsh'
+[76.812s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/seek_destroy_ws/install/setup.zsh'

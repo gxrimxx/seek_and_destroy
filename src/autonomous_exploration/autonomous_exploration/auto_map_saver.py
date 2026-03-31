@@ -47,7 +47,7 @@ def main(args=None):
     try:
         rclpy.spin(node)
     except SystemExit:
-        rclpy.get_logger('rclpy').info('Auto Map Saver shutting down gracefully.')
+        rclpy.get_logger().info('Auto Map Saver shutting down gracefully.')
     finally:
         # Cleanup
         if rclpy.ok():

@@ -1,0 +1,7 @@
+[1.154s] Invoking command in '/home/user/seek_destroy_ws/build/rosbot_utils': PYTHONPATH=/home/user/seek_destroy_ws/build/rosbot_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/rosbot_utils/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/rosbot_utils/build --no-deps symlink_data
+[1.496s] running develop
+[1.744s] running egg_info
+[1.748s] writing manifest file 'rosbot_utils.egg-info/SOURCES.txt'
+[1.750s] running build_ext
+[1.751s] running symlink_data
+[1.783s] Invoked command in '/home/user/seek_destroy_ws/build/rosbot_utils' returned '0': PYTHONPATH=/home/user/seek_destroy_ws/build/rosbot_utils/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/rosbot_utils/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/rosbot_utils/build --no-deps symlink_data

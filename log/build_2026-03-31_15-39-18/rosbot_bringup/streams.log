@@ -1,0 +1,19 @@
+[4.460s] Invoking command in '/home/user/seek_destroy_ws/build/rosbot_bringup': PYTHONPATH=/home/user/seek_destroy_ws/build/rosbot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/rosbot_bringup/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/rosbot_bringup/build --no-deps symlink_data
+[7.674s] running develop
+[7.674s] running egg_info
+[7.674s] creating rosbot_bringup.egg-info
+[7.677s] writing manifest file 'rosbot_bringup.egg-info/SOURCES.txt'
+[7.677s] writing manifest file 'rosbot_bringup.egg-info/SOURCES.txt'
+[7.678s] running build_ext
+[7.744s] running symlink_data
+[7.744s] creating /home/user/seek_destroy_ws/install/rosbot_bringup/share/ament_index
+[7.744s] creating /home/user/seek_destroy_ws/install/rosbot_bringup/share/ament_index/resource_index
+[7.744s] creating /home/user/seek_destroy_ws/install/rosbot_bringup/share/ament_index/resource_index/packages
+[7.745s] symbolically linking /home/user/seek_destroy_ws/build/rosbot_bringup/resource/rosbot_bringup -> /home/user/seek_destroy_ws/install/rosbot_bringup/share/ament_index/resource_index/packages
+[7.745s] symbolically linking /home/user/seek_destroy_ws/build/rosbot_bringup/package.xml -> /home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup
+[7.746s] creating /home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup/config
+[7.746s] symbolically linking /home/user/seek_destroy_ws/build/rosbot_bringup/config/microros_localhost_only.xml -> /home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup/config
+[7.746s] creating /home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup/launch
+[7.746s] symbolically linking /home/user/seek_destroy_ws/build/rosbot_bringup/launch/microros.launch.py -> /home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup/launch
+[7.747s] symbolically linking /home/user/seek_destroy_ws/build/rosbot_bringup/launch/bringup.launch.py -> /home/user/seek_destroy_ws/install/rosbot_bringup/share/rosbot_bringup/launch
+[8.802s] Invoked command in '/home/user/seek_destroy_ws/build/rosbot_bringup' returned '0': PYTHONPATH=/home/user/seek_destroy_ws/build/rosbot_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/rosbot_bringup/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/rosbot_bringup/build --no-deps symlink_data

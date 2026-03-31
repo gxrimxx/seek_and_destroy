@@ -1,0 +1,21 @@
+[0.013s] Invoking command in '/home/user/seek_destroy_ws/build/rosbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/rosbot -- -j8 -l8
+[0.053s] Invoked command in '/home/user/seek_destroy_ws/build/rosbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/seek_destroy_ws/build/rosbot -- -j8 -l8
+[0.056s] Invoking command in '/home/user/seek_destroy_ws/build/rosbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/rosbot
+[0.063s] -- Install configuration: ""
+[0.064s] -- Execute custom install script
+[0.064s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot/share/ament_index/resource_index/package_run_dependencies/rosbot
+[0.065s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot/share/ament_index/resource_index/parent_prefix_path/rosbot
+[0.065s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot/share/rosbot/environment/ament_prefix_path.sh
+[0.065s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot/share/rosbot/environment/ament_prefix_path.dsv
+[0.065s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot/share/rosbot/environment/path.sh
+[0.066s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot/share/rosbot/environment/path.dsv
+[0.066s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot/share/rosbot/local_setup.bash
+[0.066s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot/share/rosbot/local_setup.sh
+[0.066s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot/share/rosbot/local_setup.zsh
+[0.067s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot/share/rosbot/local_setup.dsv
+[0.067s] -- Symlinking: /home/user/seek_destroy_ws/install/rosbot/share/rosbot/package.dsv
+[0.075s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot/share/ament_index/resource_index/packages/rosbot
+[0.075s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot/share/rosbot/cmake/rosbotConfig.cmake
+[0.075s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot/share/rosbot/cmake/rosbotConfig-version.cmake
+[0.076s] -- Up-to-date symlink: /home/user/seek_destroy_ws/install/rosbot/share/rosbot/package.xml
+[0.078s] Invoked command in '/home/user/seek_destroy_ws/build/rosbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/seek_destroy_ws/install/rosbot_controller:/home/user/seek_destroy_ws/install/rosbot_utils:/home/user/seek_destroy_ws/install/rosbot_gazebo:/home/user/seek_destroy_ws/install/rosbot_bringup:/home/user/seek_destroy_ws/install/autonomous_exploration:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/seek_destroy_ws/build/rosbot

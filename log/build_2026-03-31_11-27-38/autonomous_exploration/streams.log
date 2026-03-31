@@ -1,7 +1,0 @@
-[4.444s] Invoking command in '/home/user/seek_destroy_ws/build/autonomous_exploration': PYTHONPATH=/home/user/seek_destroy_ws/build/autonomous_exploration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/autonomous_exploration/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/autonomous_exploration/build --no-deps symlink_data
-[6.199s] running develop
-[7.360s] running egg_info
-[7.374s] writing manifest file 'autonomous_exploration.egg-info/SOURCES.txt'
-[7.381s] running build_ext
-[7.382s] running symlink_data
-[7.574s] Invoked command in '/home/user/seek_destroy_ws/build/autonomous_exploration' returned '0': PYTHONPATH=/home/user/seek_destroy_ws/build/autonomous_exploration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/autonomous_exploration/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/autonomous_exploration/build --no-deps symlink_data

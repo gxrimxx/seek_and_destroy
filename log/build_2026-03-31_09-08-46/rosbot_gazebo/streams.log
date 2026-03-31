@@ -1,7 +1,0 @@
-[8.411s] Invoking command in '/home/user/seek_destroy_ws/build/rosbot_gazebo': PYTHONPATH=/home/user/seek_destroy_ws/build/rosbot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/rosbot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/rosbot_gazebo/build --no-deps symlink_data
-[10.738s] running develop
-[12.068s] running egg_info
-[12.068s] writing manifest file 'rosbot_gazebo.egg-info/SOURCES.txt'
-[12.068s] running build_ext
-[12.086s] running symlink_data
-[12.388s] Invoked command in '/home/user/seek_destroy_ws/build/rosbot_gazebo' returned '0': PYTHONPATH=/home/user/seek_destroy_ws/build/rosbot_gazebo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/rosbot_gazebo/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/rosbot_gazebo/build --no-deps symlink_data

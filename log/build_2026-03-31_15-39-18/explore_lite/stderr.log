@@ -1,0 +1,7 @@
+gmake[2]: *** [CMakeFiles/explore.dir/build.make:76: CMakeFiles/explore.dir/src/costmap_client.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/explore.dir/build.make:90: CMakeFiles/explore.dir/src/explore.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/explore.dir/build.make:104: CMakeFiles/explore.dir/src/frontier_search.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:157: CMakeFiles/explore.dir/all] Interrupt
+gmake[2]: *** [gtest/CMakeFiles/gtest.dir/build.make:76: gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:210: gtest/CMakeFiles/gtest.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

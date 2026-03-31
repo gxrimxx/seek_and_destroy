@@ -1,0 +1,16 @@
+[5.069s] Invoking command in '/home/user/seek_destroy_ws/build/autonomous_exploration': PYTHONPATH=/home/user/seek_destroy_ws/build/autonomous_exploration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/autonomous_exploration/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/autonomous_exploration/build --no-deps symlink_data
+[7.803s] running develop
+[8.066s] running egg_info
+[8.066s] creating autonomous_exploration.egg-info
+[8.066s] writing manifest file 'autonomous_exploration.egg-info/SOURCES.txt'
+[8.070s] writing manifest file 'autonomous_exploration.egg-info/SOURCES.txt'
+[8.073s] running build_ext
+[8.074s] running symlink_data
+[8.075s] creating /home/user/seek_destroy_ws/install/autonomous_exploration/share/ament_index
+[8.075s] creating /home/user/seek_destroy_ws/install/autonomous_exploration/share/ament_index/resource_index
+[8.075s] creating /home/user/seek_destroy_ws/install/autonomous_exploration/share/ament_index/resource_index/packages
+[8.076s] symbolically linking /home/user/seek_destroy_ws/build/autonomous_exploration/resource/autonomous_exploration -> /home/user/seek_destroy_ws/install/autonomous_exploration/share/ament_index/resource_index/packages
+[8.076s] symbolically linking /home/user/seek_destroy_ws/build/autonomous_exploration/package.xml -> /home/user/seek_destroy_ws/install/autonomous_exploration/share/autonomous_exploration
+[8.076s] creating /home/user/seek_destroy_ws/install/autonomous_exploration/share/autonomous_exploration/launch
+[8.076s] symbolically linking /home/user/seek_destroy_ws/build/autonomous_exploration/launch/autonomous_exploration.launch.py -> /home/user/seek_destroy_ws/install/autonomous_exploration/share/autonomous_exploration/launch
+[8.911s] Invoked command in '/home/user/seek_destroy_ws/build/autonomous_exploration' returned '0': PYTHONPATH=/home/user/seek_destroy_ws/build/autonomous_exploration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/seek_destroy_ws/install/autonomous_exploration/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user/seek_destroy_ws/build/autonomous_exploration/build --no-deps symlink_data
