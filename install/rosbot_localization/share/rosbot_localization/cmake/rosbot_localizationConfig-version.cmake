@@ -1,1 +1,0 @@
-/home/user/seek_destroy_ws/build/rosbot_localization/ament_cmake_core/rosbot_localizationConfig-version.cmake

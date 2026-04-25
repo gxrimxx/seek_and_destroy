@@ -1,1 +1,0 @@
-controller_manager:diff_drive_controller:imu_sensor_broadcaster:joint_state_broadcaster:launch:launch_ros:mecanum_drive_controller:nav2_common:open_manipulator_x_moveit:position_controllers:ros2controlcli:rosbot_description:rosbot_utils:xacro

@@ -1,1 +1,0 @@
-/home/user/seek_destroy_ws/build/husarion_gz_worlds/ament_cmake_environment_hooks/local_setup.zsh

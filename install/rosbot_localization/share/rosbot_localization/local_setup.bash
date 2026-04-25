@@ -1,1 +1,0 @@
-/home/user/seek_destroy_ws/build/rosbot_localization/ament_cmake_environment_hooks/local_setup.bash

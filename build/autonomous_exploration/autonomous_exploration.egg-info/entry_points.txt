@@ -1,3 +1,0 @@
-[console_scripts]
-auto_map_saver = autonomous_exploration.auto_map_saver:main
-

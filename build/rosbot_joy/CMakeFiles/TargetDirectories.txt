@@ -1,9 +1,0 @@
-/home/user/seek_destroy_ws/build/rosbot_joy/CMakeFiles/uninstall.dir
-/home/user/seek_destroy_ws/build/rosbot_joy/CMakeFiles/rosbot_joy_uninstall.dir
-/home/user/seek_destroy_ws/build/rosbot_joy/CMakeFiles/test.dir
-/home/user/seek_destroy_ws/build/rosbot_joy/CMakeFiles/edit_cache.dir
-/home/user/seek_destroy_ws/build/rosbot_joy/CMakeFiles/rebuild_cache.dir
-/home/user/seek_destroy_ws/build/rosbot_joy/CMakeFiles/list_install_components.dir
-/home/user/seek_destroy_ws/build/rosbot_joy/CMakeFiles/install.dir
-/home/user/seek_destroy_ws/build/rosbot_joy/CMakeFiles/install/local.dir
-/home/user/seek_destroy_ws/build/rosbot_joy/CMakeFiles/install/strip.dir

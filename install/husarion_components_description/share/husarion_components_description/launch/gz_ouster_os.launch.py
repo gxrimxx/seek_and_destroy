@@ -1,1 +1,0 @@
-/home/user/seek_destroy_ws/src/husarion_components_description/launch/gz_ouster_os.launch.py

@@ -1,1 +1,0 @@
-/home/user/seek_destroy_ws/src/autonomous_exploration/launch/autonomous_exploration.launch.py

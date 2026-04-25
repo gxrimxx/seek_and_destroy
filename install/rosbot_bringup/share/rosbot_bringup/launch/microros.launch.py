@@ -1,1 +1,0 @@
-/home/user/seek_destroy_ws/build/rosbot_bringup/launch/microros.launch.py
