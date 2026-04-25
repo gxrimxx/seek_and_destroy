@@ -4,7 +4,7 @@
   <name>seek_and_destroy_brain</name>
   <version>0.0.1</version>
   <description>Brain package — state machine and perception</description>
-  <maintainer email="you@example.com">you</maintainer>
+  <maintainer email="jj.starlight.2893@gmail.com">you</maintainer>
   <license>MIT</license>
 
   <exec_depend>rclpy</exec_depend>

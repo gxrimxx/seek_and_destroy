@@ -4,6 +4,7 @@ echo "Fixing Python setuptools for colcon build..."
 pip install setuptools==58.2.0
 pip install pyudev
 pip install transforms3d
+pip install "numpy<2"
 
 echo "Fetching missing ROS 2 workspace dependencies..."
 killall -9 ign ruby rviz2

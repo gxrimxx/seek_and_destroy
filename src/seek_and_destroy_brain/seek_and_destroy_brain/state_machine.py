@@ -4,7 +4,8 @@ from std_msgs.msg import String
 from geometry_msgs.msg import Twist
 import threading
 import time
-
+import os
+import glob
 
 class StateMachine(Node):
     def __init__(self):
@@ -99,7 +100,27 @@ class StateMachine(Node):
 
         elif new_state == 'END':
             print('\n  🏠 Robot is back at Home.')
-            print('  Map has been (or can be) saved.')
+            self.save_map()
+
+    def save_map(self):
+        print('  Saving map...')
+
+        # 1. Define the directory and make sure it exists
+        map_dir = os.path.expanduser('~/seek_destroy_ws/src/saved_maps')
+        os.makedirs(map_dir, exist_ok=True)
+        
+        # 2. Find all existing maps that start with 'map' and end with '.yaml'
+        existing_maps = glob.glob(os.path.join(map_dir, 'map*.yaml'))
+        
+        # 3. The next number is just the amount of existing maps + 1
+        next_num = len(existing_maps) + 1
+        map_name = f'map{next_num}'
+        
+        # 4. Run the map saver command
+        save_cmd = f'ros2 run nav2_map_server map_saver_cli -f {os.path.join(map_dir, map_name)}'
+        os.system(save_cmd)
+        
+        print(f'  ✅ Map saved successfully as {map_name}!')
 
     def publish_cmd(self, cmd):
         msg = String()
@@ -165,13 +186,14 @@ class StateMachine(Node):
             if self.state == 'IDLE':
                 print('\n' + '-'*50)
                 self.target_name = input('  Which target are you looking for?\n  > ').strip()
+                self.target_name = self.target_name.lower()
 
                 if not self.target_name:
-                    print('  Please type a target name (e.g. Red Cylinder, Blue Box, Green Cylinder)')
+                    print('  Please type a target name (e.g. red cylinder, blue box, green cylinder)')
                     continue
 
                 print(f'\n  Searching for: "{self.target_name}"')
-                print('  Available targets: Red Cylinder, Blue Box, Green Cylinder')
+                print('  Available targets: red cylinder, blue box, green cylinder')
                 self.transition('EXPLORING')
 
             elif self.state == 'END':
