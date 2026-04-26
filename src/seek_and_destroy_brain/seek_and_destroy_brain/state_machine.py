@@ -14,6 +14,7 @@ import glob
 import time
 import threading
 from typing import Tuple
+import yaml
 
 import rclpy
 from rclpy.node import Node
@@ -111,6 +112,25 @@ class StateMachine(Node):
         ui_thread = threading.Thread(target=self._run_ui, daemon=True)
         ui_thread.start()
 
+        self.declare_parameter('targets_file', '')
+        targets_file = self.get_parameter('targets_file').value
+
+        self.valid_targets = []
+        
+        if not targets_file or not os.path.exists(targets_file):
+            self.get_logger().error(f'targets.yaml not found at: {targets_file}')
+        else:
+            try:
+                with open(targets_file, 'r') as f:
+                    config = yaml.safe_load(f)
+                    self.valid_targets = list(config['targets'].keys())
+                    self.get_logger().info(f'Loaded {len(self.valid_targets)} valid targets: {self.valid_targets}')
+            except Exception as e:
+                self.get_logger().error(f"Could not parse targets.yaml: {e}")
+        
+        self.declare_parameter('map_save_dir', '')
+        self.maps_dir = self.get_parameter('map_save_dir').value
+
     # ─────────────────────────────────────────────────────────────────────────
     # CALLBACKS
     # ─────────────────────────────────────────────────────────────────────────
@@ -170,7 +190,7 @@ class StateMachine(Node):
         """Called by go_home node once Nav2 has reached (0, 0)."""
         if msg.data == 'ARRIVED_HOME':
             if self.state == 'HOME':
-                self._transition('END')
+                self._transition('SAVING_MAP')
             elif self.state == 'HOME_FAILED':
                 self._transition('END_FAILED')
 
@@ -179,6 +199,11 @@ class StateMachine(Node):
                 print(f'\n  [INFO] Reached known target! Now heading back to base.')
                 self._publish_cmd('GO_HOME')
                 self._transition('HOME')
+        
+        elif msg.data == 'MAP_SAVED':
+            if self.state == 'SAVING_MAP':
+                print('  ✅ Map successfully saved by base station!')
+                self._transition('END')  # Now we trigger the final UI prompt!
     
     def _check_timeout(self):
         """If exploring takes longer than 3 minutes (180 seconds), give up."""
@@ -211,6 +236,9 @@ class StateMachine(Node):
             # We already published GO_HOME before calling _transition.
             pass
 
+        elif new_state == 'SAVING_MAP':
+            self._request_map_save()
+
         elif new_state == 'END':
             loc_str = (
                 f'({self.found_location[0]:.2f}, {self.found_location[1]:.2f})'
@@ -219,7 +247,7 @@ class StateMachine(Node):
             print(f'\n  ✅ TARGET FOUND: {self.target_name}')
             print(f'     Location: {loc_str}')
             print('\n  🏠 Robot is back at Home.')
-            self._save_map()
+            # self._save_map()
             # The UI thread will now detect state == 'END' and prompt the user.
 
     # ─────────────────────────────────────────────────────────────────────────
@@ -334,6 +362,17 @@ class StateMachine(Node):
         else:
             print(f'  ⚠️  map_saver_cli exited with code {ret}. '
                   'Check that nav2_map_server is installed and the map server is running.')
+    
+    def _request_map_save(self):
+        print('  Asking base station to save map...')
+
+        os.makedirs(self.maps_dir, exist_ok=True)
+        existing = glob.glob(os.path.join(self.maps_dir, 'map*.yaml'))
+        next_num = len(existing) + 1
+        map_path = os.path.join(self.maps_dir, f'map{next_num}')
+        
+        # Send the command to Terminal 1
+        self._publish_cmd(f'SAVE_MAP:{map_path}')
 
     # ─────────────────────────────────────────────────────────────────────────
     # TERMINAL UI  (runs in a background daemon thread)
@@ -348,7 +387,7 @@ class StateMachine(Node):
             # ── IDLE: ask for a target ────────────────────────────────────────
             if self.state == 'IDLE':
                 print('\n' + '-' * 40)
-                print('  Available targets: red_cylinder, blue_box, green_cylinder')
+                print('  Available targets: Red Cylinder, Blue Box, Green Cylinder')
                 raw = input('  Which target are you looking for?\n  > ').strip()
 
                 if not raw:
@@ -369,7 +408,7 @@ class StateMachine(Node):
                     self._publish_cmd(f'GO_TO:{x},{y}') 
                     self._transition('NAVIGATING_TO_KNOWN')
                 else:
-                    print(f'\n  Target unknown. Starting exploration for: "{self.target_name}"')
+                    print(f'\n  Target not found yet. Starting exploration for: "{self.target_name}"')
                     self.target_name = self.target_name
                     self.found_location = None
                     self._transition('EXPLORING')

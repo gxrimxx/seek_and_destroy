@@ -5,6 +5,7 @@ from std_msgs.msg import String
 from nav2_msgs.action import NavigateToPose
 from geometry_msgs.msg import PoseStamped
 import math
+import os
 
 class GoHome(Node):
     def __init__(self):
@@ -35,6 +36,19 @@ class GoHome(Node):
                 self.navigate_to(x=x, y=y, yaw=0.0)
             except Exception as e:
                 self.get_logger().error(f'Failed to parse GO_TO command: {e}')
+        
+        elif msg.data.startswith('SAVE_MAP:'):
+            map_path = msg.data.split(':')[1]
+            self.get_logger().info(f'Saving map to {map_path}...')
+            
+            # Run the command here in Terminal 1 (no /dev/null, so you see the output!)
+            cmd = f'ros2 run nav2_map_server map_saver_cli -f {map_path} --fmt png'
+            os.system(cmd)
+            
+            # Tell the state machine the map is done saving
+            status_msg = String()
+            status_msg.data = 'MAP_SAVED'
+            self.status_pub.publish(status_msg)
 
     def navigate_to(self, x, y, yaw):
         goal_msg = NavigateToPose.Goal()

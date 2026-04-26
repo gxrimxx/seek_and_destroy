@@ -23,6 +23,7 @@ def generate_launch_description():
     slam_params  = os.path.join(pkg_sim, 'config', 'slam_params.yaml')
     nav2_params  = os.path.join(ws_src, 'seek_and_destroy_sim', 'config', 'nav2_params.yaml')
     targets_file = os.path.join(ws_src, 'seek_and_destroy_brain', 'config', 'targets.yaml')
+    map_save_dir = os.path.join(ws_src, 'saved_maps')
 
     # Gazebo config
     gz_gui_config = os.path.join(pkg_sim, 'config', 'lab_world_gazebo.config')
@@ -124,7 +125,8 @@ def generate_launch_description():
                 name='state_machine',
                 output='screen',
                 prefix=['xterm -fa Monospace -fs 14 -geometry 40x15 -sb -sl 1000 -e'],
-                on_exit=EmitEvent(event=Shutdown())
+                on_exit=EmitEvent(event=Shutdown()),
+                parameters=[{'targets_file': targets_file}, {'map_save_dir': map_save_dir}]
             )
         ]),
     ])
