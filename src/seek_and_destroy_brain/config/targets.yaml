@@ -1,17 +1,17 @@
 targets:
-  "red cylinder":
+  "redcylinder":
     hsv_lower: [0, 120, 70]
     hsv_upper: [10, 255, 255]
     hsv_lower2: [170, 120, 70]
     hsv_upper2: [180, 255, 255]
     min_area: 400
 
-  "blue box":
+  "bluebox":
     hsv_lower: [100, 120, 70]
     hsv_upper: [130, 255, 255]
     min_area: 400
 
-  "green cylinder":
+  "greencylinder":
     hsv_lower: [40, 80, 70]
     hsv_upper: [80, 255, 255]
     min_area: 400

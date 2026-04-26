@@ -25,7 +25,7 @@ Panels:
     Experimental: false
     Name: Time
     SyncMode: 0
-    SyncSource: ""
+    SyncSource: LaserScan
 Visualization Manager:
   Class: ""
   Displays:
@@ -208,6 +208,8 @@ Visualization Manager:
               Value: true
             laser:
               Value: true
+            map:
+              Value: true
             odom:
               Value: true
             rl_range:
@@ -226,41 +228,42 @@ Visualization Manager:
           Show Axes: true
           Show Names: true
           Tree:
-            odom:
-              base_link:
-                body_link:
-                  camera_mount_link:
-                    camera_astra_visual_frame:
-                      {}
-                    camera_link:
-                      camera_color_frame:
-                        camera_color_optical_frame:
-                          {}
-                      camera_depth_frame:
-                        camera_depth_optical_frame:
-                          {}
-                  cover_link:
-                    rplidar_link:
-                      laser:
+            map:
+              odom:
+                base_link:
+                  body_link:
+                    camera_mount_link:
+                      camera_astra_visual_frame:
                         {}
-                  fl_range:
-                    {}
-                  fl_wheel_link:
-                    {}
-                  fr_range:
-                    {}
-                  fr_wheel_link:
-                    {}
-                  imu_link:
-                    {}
-                  rl_range:
-                    {}
-                  rl_wheel_link:
-                    {}
-                  rr_range:
-                    {}
-                  rr_wheel_link:
-                    {}
+                      camera_link:
+                        camera_color_frame:
+                          camera_color_optical_frame:
+                            {}
+                        camera_depth_frame:
+                          camera_depth_optical_frame:
+                            {}
+                    cover_link:
+                      rplidar_link:
+                        laser:
+                          {}
+                    fl_range:
+                      {}
+                    fl_wheel_link:
+                      {}
+                    fr_range:
+                      {}
+                    fr_wheel_link:
+                      {}
+                    imu_link:
+                      {}
+                    rl_range:
+                      {}
+                    rl_wheel_link:
+                      {}
+                    rr_range:
+                      {}
+                    rr_wheel_link:
+                      {}
           Update Interval: 0
           Value: true
         - Angle Tolerance: 0.10000000149011612
@@ -355,7 +358,7 @@ Visualization Manager:
         Filter size: 10
         History Policy: Keep Last
         Reliability Policy: Reliable
-        Value: /scan
+        Value: /scan_filtered
       Use Fixed Frame: true
       Use rainbow: true
       Value: true
@@ -458,8 +461,8 @@ Visualization Manager:
   Enabled: true
   Global Options:
     Background Color: 48; 48; 48
-    Fixed Frame: odom
-    Frame Rate: 30
+    Fixed Frame: map
+    Frame Rate: 10
   Name: root
   Tools:
     - Class: rviz_default_plugins/Interact
@@ -501,16 +504,16 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 13.381842613220215
+      Distance: 8.834640502929688
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: 0
-        Y: 0
-        Z: 0
+        X: -0.14049936830997467
+        Y: 2.0109312534332275
+        Z: -0.0020110835321247578
       Focal Shape Fixed Size: false
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false

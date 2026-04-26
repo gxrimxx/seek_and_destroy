@@ -20,6 +20,7 @@ setup(
         'console_scripts': [
             'state_machine = seek_and_destroy_brain.state_machine:main',
             'color_detector = seek_and_destroy_brain.color_detector:main',
+            'go_home = seek_and_destroy_brain.go_home:main',
         ],
     },
 )

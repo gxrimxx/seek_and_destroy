@@ -1,9 +1,11 @@
 import os
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription, TimerAction
+from launch.actions import IncludeLaunchDescription, TimerAction, EmitEvent
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
+import launch
+from launch.events import Shutdown
 
 def generate_launch_description():
     # --- Package Directories ---
@@ -11,15 +13,21 @@ def generate_launch_description():
     nav2_bringup  = get_package_share_directory('nav2_bringup')
     pkg_sim       = get_package_share_directory('seek_and_destroy_sim')
     pkg_brain     = get_package_share_directory('seek_and_destroy_brain')
+    
+    # NEW: Get explore_lite directory
+    explore_lite_pkg = get_package_share_directory('explore_lite')
 
     # --- File Paths ---
     ws_src       = os.path.expanduser('~/seek_destroy_ws/src')
-    world_file   = os.path.join(pkg_sim, 'worlds', 'lab.world')
+    world_file   = os.path.join(pkg_sim, 'worlds', 'lab.sdf')
     slam_params  = os.path.join(pkg_sim, 'config', 'slam_params.yaml')
     nav2_params  = os.path.join(ws_src, 'seek_and_destroy_sim', 'config', 'nav2_params.yaml')
     targets_file = os.path.join(ws_src, 'seek_and_destroy_brain', 'config', 'targets.yaml')
+
+    # Gazebo config
+    gz_gui_config = os.path.join(pkg_sim, 'config', 'lab_world_gazebo.config')
     
-    # Using your RViz config from the previous deliverable
+    # RViz config
     rviz_config  = os.path.join(ws_src, 'seek_destroy', 'config', 'nav2_default_view.rviz')
 
     return LaunchDescription([
@@ -29,11 +37,11 @@ def generate_launch_description():
             PythonLaunchDescriptionSource(
                 os.path.join(rosbot_gazebo, 'launch', 'simulation.launch.py')
             ),
-            # Keep RViz false here so we can spawn our own custom one below
             launch_arguments={
                 'robot_model': 'rosbot',
                 'gz_world': world_file,
-                'rviz': 'false',       
+                'rviz': 'false',   
+                'gz_gui': gz_gui_config,
             }.items()
         ),
 
@@ -62,7 +70,6 @@ def generate_launch_description():
         ]),
 
         # 4. RViz2 & Camera View (Delayed 12s)
-        # These give you your visual tools!
         TimerAction(period=12.0, actions=[
             Node(
                 package='rviz2',
@@ -80,26 +87,44 @@ def generate_launch_description():
             )
         ]),
 
-        # 5. Color Detector (Delayed 15s)
+        # 5. Brain Nodes: Detector, Go Home, and Explore Lite (Delayed 15s)
         TimerAction(period=15.0, actions=[
+            # Color Detector
             Node(
                 package='seek_and_destroy_brain',
                 executable='color_detector',
                 name='color_detector',
                 output='screen',
                 parameters=[{'targets_file': targets_file}, {'use_sim_time': True}]
+            ),
+            # NEW: Go Home Node
+            Node(
+                package='seek_and_destroy_brain',
+                executable='go_home',
+                name='go_home',
+                output='screen',
+                parameters=[{'use_sim_time': True}]
+            ),
+            # NEW: Explore Lite Node
+            IncludeLaunchDescription(
+                PythonLaunchDescriptionSource(
+                    os.path.join(explore_lite_pkg, 'launch', 'explore.launch.py')
+                ),
+                launch_arguments={
+                    'use_sim_time': 'true'
+                }.items()
             )
         ]),
 
         # 6. State Machine UI (Delayed 20s)
-        # Notice the updated prefix! This forces a larger window (100x30) and bigger font (fs 14)
         TimerAction(period=20.0, actions=[
             Node(
                 package='seek_and_destroy_brain',
                 executable='state_machine',
                 name='state_machine',
                 output='screen',
-                prefix=['xterm -fa Monospace -fs 14 -geometry 100x30 -e '] 
+                prefix=['xterm -fa Monospace -fs 14 -geometry 40x15 -sb -sl 1000 -e'],
+                on_exit=EmitEvent(event=Shutdown())
             )
         ]),
     ])
