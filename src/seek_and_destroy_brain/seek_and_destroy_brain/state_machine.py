@@ -209,7 +209,7 @@ class StateMachine(Node):
         """If exploring takes longer than 3 minutes (180 seconds), give up."""
         if self.state == 'EXPLORING' and self.explore_start_time:
             elapsed = time.time() - self.explore_start_time
-            if elapsed > 300.0:  # 5 minutes
+            if elapsed > 600.0:  # 5 minutes
                 print(f'\n  [TIMEOUT] Explored for 5 minutes but could not find "{self.target_name}".')
                 self._set_explore(False)
                 self._publish_cmd('GO_HOME')
