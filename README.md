@@ -72,6 +72,8 @@ xterm state machine window will appear automatically.
 | `SAVING_MAP` | Saves map PNG with colored target markers overlaid |
 
 Saved maps go to `~/seek_destroy_ws/src/saved_maps/`.
+one of the saved maps:
+<img width="160" height="160" alt="map9" src="https://github.com/user-attachments/assets/af1cb6d5-e433-41f0-8f2a-9370a205ad86" />
 
 ---
 
@@ -149,7 +151,7 @@ ros2 pkg list | grep -i rosbot
 
 ## AI Disclosure
 
-AI tools (Claude by Anthropic, Gemini) were used to assist with documentation,
+AI tools (Claude, Gemini) were used to assist with documentation,
 debugging ROS 2 configuration issues, and code structure suggestions.
 All system architecture, node logic, state machine design,
 detection pipeline, test cases, and ideas were conceived and implemented by the
