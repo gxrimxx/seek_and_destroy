@@ -96,13 +96,13 @@ def generate_launch_description():
                 executable='color_detector',
                 name='color_detector',
                 output='screen',
-                parameters=[{'targets_file': targets_file}, {'use_sim_time': True}]
+                parameters=[{'targets_file': targets_file}, {'use_sim_time': True},{'use_depth': False}]
             ),
             # NEW: Go Home Node
             Node(
                 package='seek_and_destroy_brain',
-                executable='go_home',
-                name='go_home',
+                executable='navigator',
+                name='navigator',
                 output='screen',
                 parameters=[{'use_sim_time': True}]
             ),
