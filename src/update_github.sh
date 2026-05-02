@@ -12,4 +12,4 @@ git commit -m "$1"
 
 # 4. Push to GitHub
 echo "Pushing to GitHub..."
-git push -u origin master
+git push -u origin master --force
