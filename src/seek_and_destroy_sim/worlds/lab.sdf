@@ -1,18 +1,18 @@
 <?xml version="1.0" ?>
 <sdf version="1.6">
   <world name="lab">
-    
+
     <physics name="1ms" type="ignored">
       <max_step_size>0.001</max_step_size>
       <real_time_factor>1.0</real_time_factor>
     </physics>
 
-    <plugin filename="ignition-gazebo-contact-system" name="gz::sim::systems::Contact" />
-    <plugin filename="ignition-gazebo-imu-system" name="gz::sim::systems::Imu" />
-    <plugin filename="ignition-gazebo-physics-system" name="gz::sim::systems::Physics" />
+    <plugin filename="ignition-gazebo-contact-system"        name="gz::sim::systems::Contact" />
+    <plugin filename="ignition-gazebo-imu-system"            name="gz::sim::systems::Imu" />
+    <plugin filename="ignition-gazebo-physics-system"        name="gz::sim::systems::Physics" />
     <plugin filename="ignition-gazebo-scene-broadcaster-system" name="gz::sim::systems::SceneBroadcaster" />
-    <plugin filename="ignition-gazebo-sensors-system" name="gz::sim::systems::Sensors" />
-    <plugin filename="ignition-gazebo-user-commands-system" name="gz::sim::systems::UserCommands" />
+    <plugin filename="ignition-gazebo-sensors-system"        name="gz::sim::systems::Sensors" />
+    <plugin filename="ignition-gazebo-user-commands-system"  name="gz::sim::systems::UserCommands" />
 
     <include>
       <uri>https://fuel.gazebosim.org/1.0/OpenRobotics/models/Sun</uri>
@@ -23,135 +23,107 @@
 
     <!-- ── WALLS ── -->
     <model name="wall_north">
-      <static>true</static>
-      <pose>0 4 0.5 0 0 0</pose>
+      <static>true</static><pose>0 4 0.5 0 0 0</pose>
       <link name="link">
-        <collision name="collision"><geometry><box><size>8.2 0.1 1</size></box></geometry></collision>
-        <visual name="visual"><geometry><box><size>8.2 0.1 1</size></box></geometry><material><ambient>0.8 0.8 0.8 1</ambient></material></visual>
+        <collision name="c"><geometry><box><size>8.2 0.1 1</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>8.2 0.1 1</size></box></geometry><material><ambient>0.8 0.8 0.8 1</ambient></material></visual>
       </link>
     </model>
     <model name="wall_south">
-      <static>true</static>
-      <pose>0 -4 0.5 0 0 0</pose>
+      <static>true</static><pose>0 -4 0.5 0 0 0</pose>
       <link name="link">
-        <collision name="collision"><geometry><box><size>8.2 0.1 1</size></box></geometry></collision>
-        <visual name="visual"><geometry><box><size>8.2 0.1 1</size></box></geometry><material><ambient>0.8 0.8 0.8 1</ambient></material></visual>
+        <collision name="c"><geometry><box><size>8.2 0.1 1</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>8.2 0.1 1</size></box></geometry><material><ambient>0.8 0.8 0.8 1</ambient></material></visual>
       </link>
     </model>
     <model name="wall_east">
-      <static>true</static>
-      <pose>4 0 0.5 0 0 0</pose>
+      <static>true</static><pose>4 0 0.5 0 0 0</pose>
       <link name="link">
-        <collision name="collision"><geometry><box><size>0.1 8 1</size></box></geometry></collision>
-        <visual name="visual"><geometry><box><size>0.1 8 1</size></box></geometry><material><ambient>0.8 0.8 0.8 1</ambient></material></visual>
+        <collision name="c"><geometry><box><size>0.1 8 1</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>0.1 8 1</size></box></geometry><material><ambient>0.8 0.8 0.8 1</ambient></material></visual>
       </link>
     </model>
     <model name="wall_west">
-      <static>true</static>
-      <pose>-4 0 0.5 0 0 0</pose>
+      <static>true</static><pose>-4 0 0.5 0 0 0</pose>
       <link name="link">
-        <collision name="collision"><geometry><box><size>0.1 8 1</size></box></geometry></collision>
-        <visual name="visual"><geometry><box><size>0.1 8 1</size></box></geometry><material><ambient>0.8 0.8 0.8 1</ambient></material></visual>
+        <collision name="c"><geometry><box><size>0.1 8 1</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>0.1 8 1</size></box></geometry><material><ambient>0.8 0.8 0.8 1</ambient></material></visual>
       </link>
     </model>
 
-    <!-- ── OBSTACLES ── -->
+    <!-- ── STATIC OBSTACLES ── -->
     <model name="obstacle_1">
-      <static>true</static>
-      <pose>1.5 1.5 0.25 0 0 0</pose>
+      <static>true</static><pose>1.5 1.5 0.25 0 0 0</pose>
       <link name="link">
-        <collision name="collision"><geometry><box><size>0.6 0.6 0.5</size></box></geometry></collision>
-        <visual name="visual"><geometry><box><size>0.6 0.6 0.5</size></box></geometry><material><ambient>0.5 0.4 0.3 1</ambient></material></visual>
+        <collision name="c"><geometry><box><size>0.6 0.6 0.5</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>0.6 0.6 0.5</size></box></geometry><material><ambient>0.5 0.4 0.3 1</ambient></material></visual>
       </link>
     </model>
     <model name="obstacle_2">
-      <static>true</static>
-      <pose>-2 1 0.25 0 0 0.4</pose>
+      <static>true</static><pose>-2 1 0.25 0 0 0.4</pose>
       <link name="link">
-        <collision name="collision"><geometry><box><size>0.8 0.3 0.5</size></box></geometry></collision>
-        <visual name="visual"><geometry><box><size>0.8 0.3 0.5</size></box></geometry><material><ambient>0.4 0.4 0.5 1</ambient></material></visual>
+        <collision name="c"><geometry><box><size>0.8 0.3 0.5</size></box></geometry></collision>
+        <visual name="v"><geometry><box><size>0.8 0.3 0.5</size></box></geometry><material><ambient>0.4 0.4 0.5 1</ambient></material></visual>
       </link>
     </model>
 
-    <!-- ── PERSON 1: RED UNIFORM (same position as red cylinder) ── -->
+    <!-- ── PERSON 1: RED ── -->
     <model name="target_red_cylinder">
-      <static>true</static>
-      <pose>3.0 2.5 0 0 0 0</pose>
+      <static>true</static><pose>3.0 2.5 0 0 0 0</pose>
       <link name="link">
-        <visual name="legs">
-          <pose>0 0 0.28 0 0 0</pose>
-          <geometry><box><size>0.28 0.18 0.5</size></box></geometry>
-          <material><ambient>0.15 0.1 0.1 1</ambient><diffuse>0.15 0.1 0.1 1</diffuse></material>
-        </visual>
-        <visual name="torso">
-          <pose>0 0 0.72 0 0 0</pose>
-          <geometry><box><size>0.36 0.22 0.44</size></box></geometry>
-          <material><ambient>0.95 0.05 0.05 1</ambient><diffuse>0.95 0.05 0.05 1</diffuse></material>
-        </visual>
-        <visual name="head">
-          <pose>0 0 1.08 0 0 0</pose>
-          <geometry><sphere><radius>0.12</radius></sphere></geometry>
-          <material><ambient>0.85 0.7 0.55 1</ambient><diffuse>0.85 0.7 0.55 1</diffuse></material>
-        </visual>
-        <collision name="collision">
-          <pose>0 0 0.6 0 0 0</pose>
-          <geometry><box><size>0.36 0.22 1.2</size></box></geometry>
-        </collision>
+        <visual name="legs"><pose>0 0 0.28 0 0 0</pose><geometry><box><size>0.28 0.18 0.5</size></box></geometry><material><ambient>0.15 0.1 0.1 1</ambient><diffuse>0.15 0.1 0.1 1</diffuse></material></visual>
+        <visual name="torso"><pose>0 0 0.72 0 0 0</pose><geometry><box><size>0.36 0.22 0.44</size></box></geometry><material><ambient>0.95 0.05 0.05 1</ambient><diffuse>0.95 0.05 0.05 1</diffuse></material></visual>
+        <visual name="head"><pose>0 0 1.08 0 0 0</pose><geometry><sphere><radius>0.12</radius></sphere></geometry><material><ambient>0.85 0.7 0.55 1</ambient><diffuse>0.85 0.7 0.55 1</diffuse></material></visual>
+        <collision name="collision"><pose>0 0 0.6 0 0 0</pose><geometry><box><size>0.36 0.22 1.2</size></box></geometry></collision>
       </link>
     </model>
 
-    <!-- ── PERSON 2: BLUE UNIFORM (same position as blue box) ── -->
+    <!-- ── PERSON 2: BLUE ── -->
     <model name="target_blue_box">
-      <static>true</static>
-      <pose>-3.0 2.5 0 0 0 0</pose>
+      <static>true</static><pose>-3.0 2.5 0 0 0 0</pose>
       <link name="link">
-        <visual name="legs">
-          <pose>0 0 0.28 0 0 0</pose>
-          <geometry><box><size>0.28 0.18 0.5</size></box></geometry>
-          <material><ambient>0.12 0.12 0.12 1</ambient><diffuse>0.12 0.12 0.12 1</diffuse></material>
-        </visual>
-        <visual name="torso">
-          <pose>0 0 0.72 0 0 0</pose>
-          <geometry><box><size>0.36 0.22 0.44</size></box></geometry>
-          <material><ambient>0.05 0.05 0.95 1</ambient><diffuse>0.05 0.05 0.95 1</diffuse></material>
-        </visual>
-        <visual name="head">
-          <pose>0 0 1.08 0 0 0</pose>
-          <geometry><sphere><radius>0.12</radius></sphere></geometry>
-          <material><ambient>0.85 0.7 0.55 1</ambient><diffuse>0.85 0.7 0.55 1</diffuse></material>
-        </visual>
-        <collision name="collision">
-          <pose>0 0 0.6 0 0 0</pose>
-          <geometry><box><size>0.36 0.22 1.2</size></box></geometry>
-        </collision>
+        <visual name="legs"><pose>0 0 0.28 0 0 0</pose><geometry><box><size>0.28 0.18 0.5</size></box></geometry><material><ambient>0.12 0.12 0.12 1</ambient><diffuse>0.12 0.12 0.12 1</diffuse></material></visual>
+        <visual name="torso"><pose>0 0 0.72 0 0 0</pose><geometry><box><size>0.36 0.22 0.44</size></box></geometry><material><ambient>0.05 0.05 0.95 1</ambient><diffuse>0.05 0.05 0.95 1</diffuse></material></visual>
+        <visual name="head"><pose>0 0 1.08 0 0 0</pose><geometry><sphere><radius>0.12</radius></sphere></geometry><material><ambient>0.85 0.7 0.55 1</ambient><diffuse>0.85 0.7 0.55 1</diffuse></material></visual>
+        <collision name="collision"><pose>0 0 0.6 0 0 0</pose><geometry><box><size>0.36 0.22 1.2</size></box></geometry></collision>
       </link>
     </model>
 
-    <!-- ── PERSON 3: GREEN UNIFORM (same position as green cylinder) ── -->
+    <!-- ── PERSON 3: GREEN ── -->
     <model name="target_green_cylinder">
-      <static>true</static>
-      <pose>-2.5 -3.0 0 0 0 0</pose>
+      <static>true</static><pose>-2.5 -3.0 0 0 0 0</pose>
       <link name="link">
-        <visual name="legs">
-          <pose>0 0 0.28 0 0 0</pose>
-          <geometry><box><size>0.28 0.18 0.5</size></box></geometry>
-          <material><ambient>0.1 0.1 0.1 1</ambient><diffuse>0.1 0.1 0.1 1</diffuse></material>
-        </visual>
-        <visual name="torso">
-          <pose>0 0 0.72 0 0 0</pose>
-          <geometry><box><size>0.36 0.22 0.44</size></box></geometry>
-          <material><ambient>0.05 0.9 0.05 1</ambient><diffuse>0.05 0.9 0.05 1</diffuse></material>
-        </visual>
-        <visual name="head">
-          <pose>0 0 1.08 0 0 0</pose>
-          <geometry><sphere><radius>0.12</radius></sphere></geometry>
-          <material><ambient>0.85 0.7 0.55 1</ambient><diffuse>0.85 0.7 0.55 1</diffuse></material>
-        </visual>
-        <collision name="collision">
-          <pose>0 0 0.6 0 0 0</pose>
-          <geometry><box><size>0.36 0.22 1.2</size></box></geometry>
-        </collision>
+        <visual name="legs"><pose>0 0 0.28 0 0 0</pose><geometry><box><size>0.28 0.18 0.5</size></box></geometry><material><ambient>0.1 0.1 0.1 1</ambient><diffuse>0.1 0.1 0.1 1</diffuse></material></visual>
+        <visual name="torso"><pose>0 0 0.72 0 0 0</pose><geometry><box><size>0.36 0.22 0.44</size></box></geometry><material><ambient>0.05 0.9 0.05 1</ambient><diffuse>0.05 0.9 0.05 1</diffuse></material></visual>
+        <visual name="head"><pose>0 0 1.08 0 0 0</pose><geometry><sphere><radius>0.12</radius></sphere></geometry><material><ambient>0.85 0.7 0.55 1</ambient><diffuse>0.85 0.7 0.55 1</diffuse></material></visual>
+        <collision name="collision"><pose>0 0 0.6 0 0 0</pose><geometry><box><size>0.36 0.22 1.2</size></box></geometry></collision>
       </link>
+    </model>
+
+    <!-- ── PATROLLING BLACK FIGURE (moving obstacle) ── -->
+    <model name="patrol_person">
+      <pose>0 0.5 0 0 0 0</pose>
+      <link name="link">
+        <visual name="legs"><pose>0 0 0.28 0 0 0</pose><geometry><box><size>0.28 0.18 0.5</size></box></geometry><material><ambient>0.05 0.05 0.05 1</ambient><diffuse>0.05 0.05 0.05 1</diffuse></material></visual>
+        <visual name="torso"><pose>0 0 0.72 0 0 0</pose><geometry><box><size>0.36 0.22 0.44</size></box></geometry><material><ambient>0.08 0.08 0.08 1</ambient><diffuse>0.08 0.08 0.08 1</diffuse></material></visual>
+        <visual name="head"><pose>0 0 1.08 0 0 0</pose><geometry><sphere><radius>0.12</radius></sphere></geometry><material><ambient>0.85 0.7 0.55 1</ambient><diffuse>0.85 0.7 0.55 1</diffuse></material></visual>
+        <collision name="collision"><pose>0 0 0.6 0 0 0</pose><geometry><box><size>0.36 0.22 1.2</size></box></geometry></collision>
+        <inertial><mass>1.0</mass><inertia><ixx>0.1</ixx><iyy>0.1</iyy><izz>0.1</izz></inertia></inertial>
+      </link>
+      <plugin filename="libignition-gazebo-trajectory-follower-system.so"
+              name="ignition::gazebo::systems::TrajectoryFollower">
+    
+        <link_name>link</link_name>
+        <loop>true</loop>
+        <tension>0.8</tension>
+        <v>0.4</v>
+        <waypoints>
+          <waypoint>-2.5 0.5</waypoint>
+          <waypoint>2.5 0.5</waypoint>
+          <waypoint>2.5 -1.0</waypoint>
+          <waypoint>-2.5 -1.0</waypoint>
+        </waypoints>
+      </plugin>
     </model>
 
   </world>
